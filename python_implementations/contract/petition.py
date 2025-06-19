@@ -15,6 +15,7 @@ def refund_excess(excess: UInt64) -> None:
 
 class PetitionDetails(Struct):
     petition_app_id: arc4.UInt64
+    petition_title: DynamicBytes
     petition_text: DynamicBytes
     
 class PetitionMaster(ARC4Contract):
@@ -37,6 +38,7 @@ class PetitionMaster(ARC4Contract):
     @abimethod
     def create_petition(
         self,
+        petition_title: DynamicBytes,
         petition_text: DynamicBytes,
         mbr_payment: gtxn.PaymentTransaction,
     ) -> arc4.UInt64:
@@ -50,6 +52,7 @@ class PetitionMaster(ARC4Contract):
         self.assign_petition_app_master(app_id=petition_app_id)
         petition_info = self.get_petition_info(
             app_id=petition_app_id,
+            petition_title=petition_title,
             petition_text=petition_text
         )
         self.petition_details[self.petition_uid] = petition_info.copy()
@@ -81,7 +84,7 @@ class PetitionMaster(ARC4Contract):
 
     @subroutine
     def is_creating_petition(self) -> None:
-        assert gtxn.ApplicationCallTransaction(1).app_args(0) == arc4_signature('create_petition(byte[],pay)uint64')
+        assert gtxn.ApplicationCallTransaction(1).app_args(0) == arc4_signature('create_petition(byte[],byte[],pay)uint64')
 
     @subroutine
     def template_app_is_assigned(self) -> None:
@@ -126,9 +129,10 @@ class PetitionMaster(ARC4Contract):
         )
 
     @subroutine
-    def get_petition_info(self, app_id: arc4.UInt64, petition_text: DynamicBytes) -> PetitionDetails:
+    def get_petition_info(self, app_id: arc4.UInt64, petition_title: DynamicBytes, petition_text: DynamicBytes) -> PetitionDetails:
         return PetitionDetails(
             petition_app_id=app_id,
+            petition_title=petition_title.copy(),
             petition_text=petition_text.copy()
         )
     

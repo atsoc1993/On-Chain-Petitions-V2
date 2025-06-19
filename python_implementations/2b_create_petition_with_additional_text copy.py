@@ -4,6 +4,7 @@ from constants import signing_account_1, get_master_petition_app_client, algoran
 
 master_petition_app_client = get_master_petition_app_client(signing_account=signing_account_1)
 
+petition_title = b'A Test Petition Title'
 petition_text = b'This is a test petition; it must be in bytes format and will be over 10,000 characters!' + b'A' * 10_000
 
 main_app_call_text = petition_text[:2000]
@@ -26,6 +27,7 @@ new_group = master_petition_app_client.new_group()
 
 new_group.create_petition(
     args=CreatePetitionArgs(
+        petition_title=petition_title,
         petition_text=main_app_call_text,
         mbr_payment=mbr_payment_tx,
     ),
