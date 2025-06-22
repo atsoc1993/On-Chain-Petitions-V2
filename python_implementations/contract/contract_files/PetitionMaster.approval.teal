@@ -3,52 +3,64 @@
 
 // petition.PetitionMaster.__algopy_entrypoint_with_init() -> uint64:
 main:
-    intcblock 1 0 6 100000
-    bytecblock "petition_uid" "petition_template_app" "template_app_assigned" 0x6b190f3e 0x151f7c75
+    intcblock 1 0 6 4 100000
+    bytecblock "petition_uid" "next_child_petition_app" 0x151f7c75 "petition_template_app" "template_app_assigned" "previous_child_petition_app" 0x6b190f3e 0xb8742e41
     txn ApplicationID
     bnz main_after_if_else@2
-    // python_implementations/contract/petition.py:23
+    // python_implementations/contract/petition.py:27
     // self.petition_template_app = Application(0)
-    bytec_1 // "petition_template_app"
+    bytec_3 // "petition_template_app"
     intc_1 // 0
     app_global_put
-    // python_implementations/contract/petition.py:24
+    // python_implementations/contract/petition.py:28
     // self.petition_uid = arc4.UInt64(0)
     bytec_0 // "petition_uid"
     pushbytes 0x0000000000000000
     app_global_put
-    // python_implementations/contract/petition.py:26
+    // python_implementations/contract/petition.py:30
     // self.template_app_assigned = False
-    bytec_2 // "template_app_assigned"
+    bytec 4 // "template_app_assigned"
+    intc_1 // 0
+    app_global_put
+    // python_implementations/contract/petition.py:31
+    // self.previous_child_petition_app = Application(0)
+    bytec 5 // "previous_child_petition_app"
+    intc_1 // 0
+    app_global_put
+    // python_implementations/contract/petition.py:32
+    // self.next_child_petition_app = Application(0)
+    bytec_1 // "next_child_petition_app"
     intc_1 // 0
     app_global_put
 
 main_after_if_else@2:
-    // python_implementations/contract/petition.py:21
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     txn NumAppArgs
-    bz main_bare_routing@9
-    pushbytes 0xcd26b5bd // method "assign_template_app(application)void"
-    bytec_3 // method "create_petition(byte[],byte[],pay)uint64"
-    pushbytess 0x16481ac7 0x5b6c1fd4 // method "additional_box_characters_option(byte[],pay)void", method "sign_petition(application,pay)void"
+    bz main_bare_routing@12
+    pushbytess 0xa0e81872 0xcd26b5bd 0xfe0e8e9b // method "update()void", method "assign_template_app(application)void", method "prime_initial_petition(pay)void"
+    bytec 6 // method "create_petition(byte[],byte[],pay)uint64"
+    pushbytes 0x16481ac7 // method "additional_box_characters_option(byte[],pay)void"
+    bytec 7 // method "prime_petition(application)void"
+    pushbytes 0x5b6c1fd4 // method "sign_petition(application,pay)void"
     txna ApplicationArgs 0
-    match main_assign_template_app_route@5 main_create_petition_route@6 main_additional_box_characters_option_route@7 main_sign_petition_route@8
+    match main_update_route@5 main_assign_template_app_route@6 main_prime_initial_petition_route@7 main_create_petition_route@8 main_additional_box_characters_option_route@9 main_prime_petition_route@10 main_sign_petition_route@11
 
-main_after_if_else@11:
-    // python_implementations/contract/petition.py:21
+main_after_if_else@14:
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     intc_1 // 0
     return
 
-main_sign_petition_route@8:
-    // python_implementations/contract/petition.py:140
+main_sign_petition_route@11:
+    // python_implementations/contract/petition.py:192
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // python_implementations/contract/petition.py:21
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     txna ApplicationArgs 1
     btoi
@@ -61,21 +73,40 @@ main_sign_petition_route@8:
     intc_0 // pay
     ==
     assert // transaction type is pay
-    // python_implementations/contract/petition.py:140
+    // python_implementations/contract/petition.py:192
     // @abimethod
     callsub sign_petition
     intc_0 // 1
     return
 
-main_additional_box_characters_option_route@7:
-    // python_implementations/contract/petition.py:66
+main_prime_petition_route@10:
+    // python_implementations/contract/petition.py:184
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // python_implementations/contract/petition.py:21
+    // python_implementations/contract/petition.py:25
+    // class PetitionMaster(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Applications
+    // python_implementations/contract/petition.py:184
+    // @abimethod
+    callsub prime_petition
+    intc_0 // 1
+    return
+
+main_additional_box_characters_option_route@9:
+    // python_implementations/contract/petition.py:106
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     txna ApplicationArgs 1
     extract 2 0
@@ -87,21 +118,21 @@ main_additional_box_characters_option_route@7:
     intc_0 // pay
     ==
     assert // transaction type is pay
-    // python_implementations/contract/petition.py:66
+    // python_implementations/contract/petition.py:106
     // @abimethod
     callsub additional_box_characters_option
     intc_0 // 1
     return
 
-main_create_petition_route@6:
-    // python_implementations/contract/petition.py:38
+main_create_petition_route@8:
+    // python_implementations/contract/petition.py:61
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // python_implementations/contract/petition.py:21
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     txna ApplicationArgs 1
     txna ApplicationArgs 2
@@ -113,40 +144,78 @@ main_create_petition_route@6:
     intc_0 // pay
     ==
     assert // transaction type is pay
-    // python_implementations/contract/petition.py:38
+    // python_implementations/contract/petition.py:61
     // @abimethod
     callsub create_petition
-    bytec 4 // 0x151f7c75
+    itob
+    bytec_2 // 0x151f7c75
     swap
     concat
     log
     intc_0 // 1
     return
 
-main_assign_template_app_route@5:
-    // python_implementations/contract/petition.py:28
+main_prime_initial_petition_route@7:
+    // python_implementations/contract/petition.py:44
     // @abimethod
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // python_implementations/contract/petition.py:21
+    // python_implementations/contract/petition.py:25
+    // class PetitionMaster(ARC4Contract):
+    txn GroupIndex
+    intc_0 // 1
+    -
+    dup
+    gtxns TypeEnum
+    intc_0 // pay
+    ==
+    assert // transaction type is pay
+    // python_implementations/contract/petition.py:44
+    // @abimethod
+    callsub prime_initial_petition
+    intc_0 // 1
+    return
+
+main_assign_template_app_route@6:
+    // python_implementations/contract/petition.py:38
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     txna ApplicationArgs 1
     btoi
     txnas Applications
-    // python_implementations/contract/petition.py:28
+    // python_implementations/contract/petition.py:38
     // @abimethod
     callsub assign_template_app
     intc_0 // 1
     return
 
-main_bare_routing@9:
-    // python_implementations/contract/petition.py:21
+main_update_route@5:
+    // python_implementations/contract/petition.py:34
+    // @abimethod(allow_actions=['UpdateApplication'])
+    txn OnCompletion
+    intc_3 // UpdateApplication
+    ==
+    assert // OnCompletion is not UpdateApplication
+    txn ApplicationID
+    assert // can only call when not creating
+    callsub update
+    intc_0 // 1
+    return
+
+main_bare_routing@12:
+    // python_implementations/contract/petition.py:25
     // class PetitionMaster(ARC4Contract):
     txn OnCompletion
-    bnz main_after_if_else@11
+    bnz main_after_if_else@14
     txn ApplicationID
     !
     assert // can only call when creating
@@ -187,56 +256,120 @@ refund_excess:
     retsub
 
 
+// petition.PetitionMaster.update() -> void:
+update:
+    // python_implementations/contract/petition.py:36
+    // self.sender_is_creator()
+    callsub sender_is_creator
+    retsub
+
+
 // petition.PetitionMaster.assign_template_app(template_app: uint64) -> void:
 assign_template_app:
-    // python_implementations/contract/petition.py:28-29
+    // python_implementations/contract/petition.py:38-39
     // @abimethod
     // def assign_template_app(self, template_app: Application) -> None:
     proto 1 0
-    // python_implementations/contract/petition.py:36
-    // assert Txn.sender == Global.creator_address
-    txn Sender
-    global CreatorAddress
-    ==
-    assert
-    // python_implementations/contract/petition.py:31
+    // python_implementations/contract/petition.py:40
+    // self.sender_is_creator()
+    callsub sender_is_creator
+    // python_implementations/contract/petition.py:41
     // self.petition_template_app = template_app
-    bytec_1 // "petition_template_app"
+    bytec_3 // "petition_template_app"
     frame_dig -1
     app_global_put
-    // python_implementations/contract/petition.py:32
+    // python_implementations/contract/petition.py:42
     // self.template_app_assigned = True
-    bytec_2 // "template_app_assigned"
+    bytec 4 // "template_app_assigned"
     intc_0 // 1
     app_global_put
     retsub
 
 
-// petition.PetitionMaster.create_petition(petition_title: bytes, petition_text: bytes, mbr_payment: uint64) -> bytes:
+// petition.PetitionMaster.prime_initial_petition(mbr_payment: uint64) -> void:
+prime_initial_petition:
+    // python_implementations/contract/petition.py:44-45
+    // @abimethod
+    // def prime_initial_petition(self, mbr_payment: gtxn.PaymentTransaction) -> None:
+    proto 1 0
+    // python_implementations/contract/petition.py:46
+    // self.sender_is_creator()
+    callsub sender_is_creator
+    // python_implementations/contract/petition.py:47
+    // self.contract_is_payment_receiver(mbr_payment)
+    frame_dig -1
+    callsub contract_is_payment_receiver
+    // python_implementations/contract/petition.py:6
+    // return Global.current_application_address.min_balance
+    global CurrentApplicationAddress
+    acct_params_get AcctMinBalance
+    assert // account funded
+    // python_implementations/contract/petition.py:50
+    // self.next_child_petition_app = self.create_petition_app()
+    callsub create_petition_app
+    bytec_1 // "next_child_petition_app"
+    swap
+    app_global_put
+    // python_implementations/contract/petition.py:6
+    // return Global.current_application_address.min_balance
+    global CurrentApplicationAddress
+    acct_params_get AcctMinBalance
+    assert // account funded
+    // python_implementations/contract/petition.py:53
+    // mbr_cost = post_mbr - pre_mbr
+    swap
+    -
+    // python_implementations/contract/petition.py:54
+    // excess = mbr_payment.amount - mbr_cost
+    frame_dig -1
+    gtxns Amount
+    swap
+    -
+    // python_implementations/contract/petition.py:55
+    // refund_excess(excess=excess)
+    callsub refund_excess
+    retsub
+
+
+// petition.PetitionMaster.sender_is_creator() -> void:
+sender_is_creator:
+    // python_implementations/contract/petition.py:59
+    // assert Txn.sender == Global.creator_address
+    txn Sender
+    global CreatorAddress
+    ==
+    assert
+    retsub
+
+
+// petition.PetitionMaster.create_petition(petition_title: bytes, petition_text: bytes, mbr_payment: uint64) -> uint64:
 create_petition:
-    // python_implementations/contract/petition.py:38-44
+    // python_implementations/contract/petition.py:61-67
     // @abimethod
     // def create_petition(
     //     self,
     //     petition_title: DynamicBytes,
     //     petition_text: DynamicBytes,
     //     mbr_payment: gtxn.PaymentTransaction,
-    // ) -> arc4.UInt64:
+    // ) -> UInt64:
     proto 3 1
-    // python_implementations/contract/petition.py:91
+    // python_implementations/contract/petition.py:138
     // assert self.template_app_assigned == True
     intc_1 // 0
-    bytec_2 // "template_app_assigned"
+    bytec 4 // "template_app_assigned"
     app_global_get_ex
     assert // check self.template_app_assigned exists
     intc_0 // 1
     ==
     assert
-    // python_implementations/contract/petition.py:46
+    // python_implementations/contract/petition.py:69
     // self.contract_is_payment_receiver(pay_tx=mbr_payment)
     frame_dig -1
     callsub contract_is_payment_receiver
-    // python_implementations/contract/petition.py:99
+    // python_implementations/contract/petition.py:70
+    // self.will_prime_petition()
+    callsub will_prime_petition
+    // python_implementations/contract/petition.py:146
     // self.petition_uid = arc4.UInt64(self.petition_uid.native + 1)
     intc_1 // 0
     bytec_0 // "petition_uid"
@@ -247,173 +380,200 @@ create_petition:
     +
     itob
     bytec_0 // "petition_uid"
+    swap
+    app_global_put
+    // python_implementations/contract/petition.py:73
+    // petition_app = self.next_child_petition_app
+    intc_1 // 0
+    bytec_1 // "next_child_petition_app"
+    app_global_get_ex
+    assert // check self.next_child_petition_app exists
+    // python_implementations/contract/petition.py:74
+    // self.previous_child_petition_app = petition_app
+    bytec 5 // "previous_child_petition_app"
     dig 1
     app_global_put
+    // python_implementations/contract/petition.py:78
+    // receiver=self.previous_child_petition_app.address,
+    dup
+    app_params_get AppAddress
+    assert // application exists
+    // python_implementations/contract/petition.py:79
+    // amount=mbr_payment.amount
+    frame_dig -1
+    gtxns Amount
+    // python_implementations/contract/petition.py:82-88
+    // mbr_used, txn = abi_call(
+    //     Petition.create_petition,
+    //     petition_title,
+    //     petition_text,
+    //     inner_mbr_payment,
+    //     app_id=self.previous_child_petition_app,
+    // )
+    itxn_begin
+    dup
+    itxn_field Amount
+    swap
+    itxn_field Receiver
+    // python_implementations/contract/petition.py:77
+    // inner_mbr_payment = itxn.Payment(
+    intc_0 // pay
+    itxn_field TypeEnum
+    intc_1 // 0
+    itxn_field Fee
+    // python_implementations/contract/petition.py:82-88
+    // mbr_used, txn = abi_call(
+    //     Petition.create_petition,
+    //     petition_title,
+    //     petition_text,
+    //     inner_mbr_payment,
+    //     app_id=self.previous_child_petition_app,
+    // )
+    itxn_next
+    dig 1
+    itxn_field ApplicationID
+    bytec 6 // method "create_petition(byte[],byte[],pay)uint64"
+    itxn_field ApplicationArgs
+    frame_dig -3
+    itxn_field ApplicationArgs
+    frame_dig -2
+    itxn_field ApplicationArgs
+    intc_2 // appl
+    itxn_field TypeEnum
+    intc_1 // 0
+    itxn_field Fee
+    itxn_submit
+    gitxn 1 LastLog
+    dup
+    extract 4 0
+    swap
+    extract 0 4
+    bytec_2 // 0x151f7c75
+    ==
+    assert // application log value is not the result of an ABI return
+    btoi
     // python_implementations/contract/petition.py:6
     // return Global.current_application_address.min_balance
     global CurrentApplicationAddress
     acct_params_get AcctMinBalance
     assert // account funded
-    // python_implementations/contract/petition.py:104-113
-    //     itxn.ApplicationCall(
-    //         approval_program=self.petition_template_app.approval_program,
-    //         clear_state_program=self.petition_template_app.clear_state_program,
-    //         global_num_uint=3,
-    //         global_num_bytes=1,
-    //         # extra_program_pages=3,
-    //         # local_num_bytes=0,
-    //         # local_num_uint=0,
-    //         # on_completion=OnCompleteAction.NoOp,
-    // ).submit().created_app.id
-    itxn_begin
-    // python_implementations/contract/petition.py:105
-    // approval_program=self.petition_template_app.approval_program,
-    intc_1 // 0
-    bytec_1 // "petition_template_app"
-    app_global_get_ex
-    assert // check self.petition_template_app exists
-    dup
-    app_params_get AppApprovalProgram
-    assert // application exists
-    // python_implementations/contract/petition.py:106
-    // clear_state_program=self.petition_template_app.clear_state_program,
+    // python_implementations/contract/petition.py:91
+    // self.next_child_petition_app = self.create_petition_app()
+    callsub create_petition_app
+    bytec_1 // "next_child_petition_app"
     swap
-    app_params_get AppClearStateProgram
-    assert // application exists
-    // python_implementations/contract/petition.py:108
-    // global_num_bytes=1,
-    intc_0 // 1
-    itxn_field GlobalNumByteSlice
-    // python_implementations/contract/petition.py:107
-    // global_num_uint=3,
-    pushint 3 // 3
-    itxn_field GlobalNumUint
-    itxn_field ClearStateProgramPages
-    itxn_field ApprovalProgramPages
-    // python_implementations/contract/petition.py:104
-    // itxn.ApplicationCall(
-    intc_2 // appl
-    itxn_field TypeEnum
-    intc_1 // 0
-    itxn_field Fee
-    // python_implementations/contract/petition.py:104-113
-    //     itxn.ApplicationCall(
-    //         approval_program=self.petition_template_app.approval_program,
-    //         clear_state_program=self.petition_template_app.clear_state_program,
-    //         global_num_uint=3,
-    //         global_num_bytes=1,
-    //         # extra_program_pages=3,
-    //         # local_num_bytes=0,
-    //         # local_num_uint=0,
-    //         # on_completion=OnCompleteAction.NoOp,
-    // ).submit().created_app.id
-    itxn_submit
-    itxn CreatedApplicationID
-    // python_implementations/contract/petition.py:103-114
-    // return arc4.UInt64(
-    //         itxn.ApplicationCall(
-    //             approval_program=self.petition_template_app.approval_program,
-    //             clear_state_program=self.petition_template_app.clear_state_program,
-    //             global_num_uint=3,
-    //             global_num_bytes=1,
-    //             # extra_program_pages=3,
-    //             # local_num_bytes=0,
-    //             # local_num_uint=0,
-    //             # on_completion=OnCompleteAction.NoOp,
-    //     ).submit().created_app.id
-    // )
-    itob
-    // python_implementations/contract/petition.py:118-121
+    app_global_put
+    // python_implementations/contract/petition.py:161-164
     // itxn.Payment(
-    //     receiver=Application(app_id.native).address,
+    //     receiver=petition_app.address,
     //     amount=100_000
     // ).submit()
     itxn_begin
-    // python_implementations/contract/petition.py:119
-    // receiver=Application(app_id.native).address,
-    dup
-    btoi
-    dup
+    // python_implementations/contract/petition.py:162
+    // receiver=petition_app.address,
+    dig 3
     app_params_get AppAddress
     assert // application exists
-    // python_implementations/contract/petition.py:120
+    // python_implementations/contract/petition.py:163
     // amount=100_000
-    intc_3 // 100000
+    intc 4 // 100000
     itxn_field Amount
     itxn_field Receiver
-    // python_implementations/contract/petition.py:118
+    // python_implementations/contract/petition.py:161
     // itxn.Payment(
     intc_0 // pay
     itxn_field TypeEnum
     intc_1 // 0
     itxn_field Fee
-    // python_implementations/contract/petition.py:118-121
+    // python_implementations/contract/petition.py:161-164
     // itxn.Payment(
-    //     receiver=Application(app_id.native).address,
+    //     receiver=petition_app.address,
     //     amount=100_000
     // ).submit()
     itxn_submit
-    // python_implementations/contract/petition.py:125-129
+    // python_implementations/contract/petition.py:168-173
     // result = abi_call(
-    //     Petition.assign_master,
+    //     Petition.assign_master_and_petition_creator,
     //     Global.current_application_id,
-    //     app_id=app_id.native
+    //     Txn.sender,
+    //     app_id=app_id
     // )
     itxn_begin
-    // python_implementations/contract/petition.py:127
+    // python_implementations/contract/petition.py:171
+    // Txn.sender,
+    txn Sender
+    // python_implementations/contract/petition.py:170
     // Global.current_application_id,
     global CurrentApplicationID
-    itxn_field Applications
+    dig 5
     itxn_field ApplicationID
-    // python_implementations/contract/petition.py:125-129
+    itxn_field Applications
+    itxn_field Accounts
+    // python_implementations/contract/petition.py:168-173
     // result = abi_call(
-    //     Petition.assign_master,
+    //     Petition.assign_master_and_petition_creator,
     //     Global.current_application_id,
-    //     app_id=app_id.native
+    //     Txn.sender,
+    //     app_id=app_id
     // )
-    pushbytes 0xcc01e5ab // method "assign_master(application)void"
+    pushbytes 0x1fdef813 // method "assign_master_and_petition_creator(application,account)void"
     itxn_field ApplicationArgs
-    // python_implementations/contract/petition.py:127
+    // python_implementations/contract/petition.py:170
     // Global.current_application_id,
     pushbytes 0x01
     itxn_field ApplicationArgs
-    // python_implementations/contract/petition.py:125-129
+    // python_implementations/contract/petition.py:171
+    // Txn.sender,
+    pushbytes 0x01
+    itxn_field ApplicationArgs
+    // python_implementations/contract/petition.py:168-173
     // result = abi_call(
-    //     Petition.assign_master,
+    //     Petition.assign_master_and_petition_creator,
     //     Global.current_application_id,
-    //     app_id=app_id.native
+    //     Txn.sender,
+    //     app_id=app_id
     // )
     intc_2 // appl
     itxn_field TypeEnum
     intc_1 // 0
     itxn_field Fee
     itxn_submit
-    // python_implementations/contract/petition.py:133-137
-    // return PetitionDetails(
-    //     petition_app_id=app_id,
-    //     petition_title=petition_title.copy(),
-    //     petition_text=petition_text.copy()
-    // )
-    dup
-    pushbytes 0x000c
-    concat
-    frame_dig -3
-    len
-    pushint 12 // 12
-    +
-    itob
-    extract 6 2
-    concat
-    frame_dig -3
-    concat
-    frame_dig -2
-    concat
-    // python_implementations/contract/petition.py:58
-    // self.petition_details[self.petition_uid] = petition_info.copy()
+    // python_implementations/contract/petition.py:178
+    // petition_app_id=arc4.UInt64(petition_app_id),
     dig 3
+    itob
+    // python_implementations/contract/petition.py:180
+    // petition_creator=Address(Txn.sender),
+    txn Sender
+    // python_implementations/contract/petition.py:181
+    // creation_time=arc4.UInt64(Global.latest_timestamp)
+    global LatestTimestamp
+    itob
+    // python_implementations/contract/petition.py:177-182
+    // return MasterPetitionDetails(
+    //     petition_app_id=arc4.UInt64(petition_app_id),
+    //     petition_title=petition_title.copy(),
+    //     petition_creator=Address(Txn.sender),
+    //     creation_time=arc4.UInt64(Global.latest_timestamp)
+    // )
+    uncover 2
+    pushbytes 0x0032
+    concat
+    uncover 2
+    concat
+    swap
+    concat
+    frame_dig -3
+    concat
+    // python_implementations/contract/petition.py:98
+    // self.petition_details[self.petition_uid] = petition_info.copy()
+    intc_1 // 0
+    bytec_0 // "petition_uid"
+    app_global_get_ex
+    assert // check self.petition_uid exists
+    dup
     box_del
     pop
-    uncover 3
     swap
     box_put
     // python_implementations/contract/petition.py:6
@@ -421,33 +581,128 @@ create_petition:
     global CurrentApplicationAddress
     acct_params_get AcctMinBalance
     assert // account funded
-    // python_implementations/contract/petition.py:61
+    // python_implementations/contract/petition.py:101
     // mbr_cost = (post_mbr - pre_mbr) + 100_000
-    uncover 2
-    -
-    intc_3 // 100000
-    +
-    // python_implementations/contract/petition.py:62
-    // excess = mbr_payment.amount - mbr_cost
-    frame_dig -1
-    gtxns Amount
     swap
     -
-    // python_implementations/contract/petition.py:63
+    intc 4 // 100000
+    +
+    // python_implementations/contract/petition.py:102
+    // excess = (mbr_payment.amount - mbr_cost) - mbr_used
+    uncover 2
+    swap
+    -
+    swap
+    -
+    // python_implementations/contract/petition.py:103
     // refund_excess(excess=excess)
     callsub refund_excess
-    // python_implementations/contract/petition.py:64
+    // python_implementations/contract/petition.py:104
     // return petition_app_id
     retsub
 
 
 // petition.PetitionMaster.additional_box_characters_option(additional_text: bytes, mbr_payment: uint64) -> void:
 additional_box_characters_option:
-    // python_implementations/contract/petition.py:66-67
+    // python_implementations/contract/petition.py:106-107
     // @abimethod
-    // def additional_box_characters_option(self,additional_text: Bytes, mbr_payment: gtxn.PaymentTransaction) -> None:
+    // def additional_box_characters_option(self, additional_text: Bytes, mbr_payment: gtxn.PaymentTransaction) -> None:
     proto 2 0
-    // python_implementations/contract/petition.py:87
+    // python_implementations/contract/petition.py:108
+    // self.is_creating_petition()
+    callsub is_creating_petition
+    // python_implementations/contract/petition.py:109
+    // self.will_prime_petition()
+    callsub will_prime_petition
+    // python_implementations/contract/petition.py:110
+    // self.contract_is_payment_receiver(pay_tx=mbr_payment)
+    frame_dig -1
+    callsub contract_is_payment_receiver
+    // python_implementations/contract/petition.py:113
+    // receiver=self.previous_child_petition_app.address,
+    intc_1 // 0
+    bytec 5 // "previous_child_petition_app"
+    app_global_get_ex
+    assert // check self.previous_child_petition_app exists
+    dup
+    app_params_get AppAddress
+    assert // application exists
+    // python_implementations/contract/petition.py:114
+    // amount=mbr_payment.amount
+    frame_dig -1
+    gtxns Amount
+    // python_implementations/contract/petition.py:117-122
+    // mbr_used, txn = abi_call(
+    //     Petition.additional_box_characters_option,
+    //     additional_text,
+    //     inner_mbr_payment,
+    //     app_id=self.previous_child_petition_app,
+    // )
+    itxn_begin
+    dup
+    itxn_field Amount
+    swap
+    itxn_field Receiver
+    // python_implementations/contract/petition.py:112
+    // inner_mbr_payment = itxn.Payment(
+    intc_0 // pay
+    itxn_field TypeEnum
+    intc_1 // 0
+    itxn_field Fee
+    // python_implementations/contract/petition.py:117-122
+    // mbr_used, txn = abi_call(
+    //     Petition.additional_box_characters_option,
+    //     additional_text,
+    //     inner_mbr_payment,
+    //     app_id=self.previous_child_petition_app,
+    // )
+    itxn_next
+    // python_implementations/contract/petition.py:119
+    // additional_text,
+    frame_dig -2
+    len
+    itob
+    extract 6 2
+    frame_dig -2
+    concat
+    uncover 2
+    itxn_field ApplicationID
+    // python_implementations/contract/petition.py:117-122
+    // mbr_used, txn = abi_call(
+    //     Petition.additional_box_characters_option,
+    //     additional_text,
+    //     inner_mbr_payment,
+    //     app_id=self.previous_child_petition_app,
+    // )
+    pushbytes 0x05d0a49b // method "additional_box_characters_option(byte[],pay)uint64"
+    itxn_field ApplicationArgs
+    itxn_field ApplicationArgs
+    intc_2 // appl
+    itxn_field TypeEnum
+    intc_1 // 0
+    itxn_field Fee
+    itxn_submit
+    gitxn 1 LastLog
+    dup
+    extract 4 0
+    swap
+    extract 0 4
+    bytec_2 // 0x151f7c75
+    ==
+    assert // application log value is not the result of an ABI return
+    btoi
+    // python_implementations/contract/petition.py:124
+    // excess = mbr_payment.amount - mbr_used
+    -
+    // python_implementations/contract/petition.py:125
+    // refund_excess(excess=excess)
+    callsub refund_excess
+    retsub
+
+
+// petition.PetitionMaster.is_creating_petition() -> void:
+is_creating_petition:
+    // python_implementations/contract/petition.py:129
     // assert gtxn.ApplicationCallTransaction(1).app_args(0) == arc4_signature('create_petition(byte[],byte[],pay)uint64')
     intc_0 // 1
     gtxns TypeEnum
@@ -457,92 +712,46 @@ additional_box_characters_option:
     intc_0 // 1
     intc_1 // 0
     gtxnsas ApplicationArgs
-    bytec_3 // method "create_petition(byte[],byte[],pay)uint64"
+    bytec 6 // method "create_petition(byte[],byte[],pay)uint64"
     ==
     assert
-    // python_implementations/contract/petition.py:69
-    // petition_uid = arc4.UInt64(self.petition_uid.native)
-    intc_1 // 0
-    bytec_0 // "petition_uid"
-    app_global_get_ex
-    assert // check self.petition_uid exists
-    btoi
-    itob
-    // python_implementations/contract/petition.py:70
-    // additional_box_details = BoxRef(key=b'a' + petition_uid.bytes)
-    pushbytes 0x61
-    swap
-    concat
-    dup
-    // python_implementations/contract/petition.py:71
-    // box_length, box_exists  = op.Box.length(additional_box_details.key)
-    box_len
-    swap
-    cover 2
-    // python_implementations/contract/petition.py:6
-    // return Global.current_application_address.min_balance
-    global CurrentApplicationAddress
-    acct_params_get AcctMinBalance
-    swap
-    cover 3
-    assert // account funded
-    // python_implementations/contract/petition.py:74
-    // if not box_exists:
-    bnz additional_box_characters_option_else_body@2
-    // python_implementations/contract/petition.py:75
-    // additional_box_details.put(additional_text)
-    frame_dig -2
-    box_put
-
-additional_box_characters_option_after_if_else@3:
-    // python_implementations/contract/petition.py:6
-    // return Global.current_application_address.min_balance
-    global CurrentApplicationAddress
-    acct_params_get AcctMinBalance
-    assert // account funded
-    // python_implementations/contract/petition.py:81
-    // mbr_cost = post_mbr - pre_mbr
-    frame_dig 1
-    -
-    // python_implementations/contract/petition.py:82
-    // excess = mbr_payment.amount - mbr_cost
-    frame_dig -1
-    gtxns Amount
-    swap
-    -
-    // python_implementations/contract/petition.py:83
-    // refund_excess(excess=excess)
-    callsub refund_excess
+    // python_implementations/contract/petition.py:130
+    // assert gtxn.ApplicationCallTransaction(1).app_id == Global.current_application_id
+    intc_0 // 1
+    gtxns ApplicationID
+    global CurrentApplicationID
+    ==
+    assert
     retsub
 
-additional_box_characters_option_else_body@2:
-    // python_implementations/contract/petition.py:77
-    // additional_box_details.resize(box_length + additional_text.length)
-    frame_dig -2
-    len
-    frame_dig 0
+
+// petition.PetitionMaster.will_prime_petition() -> void:
+will_prime_petition:
+    // python_implementations/contract/petition.py:134
+    // assert gtxn.ApplicationCallTransaction(Global.group_size - 1).app_args(0) == arc4_signature('prime_petition(application)void')
+    global GroupSize
+    intc_0 // 1
+    -
     dup
-    uncover 2
-    +
-    uncover 2
-    dup
-    uncover 2
-    box_resize
-    // python_implementations/contract/petition.py:78
-    // additional_box_details.replace(box_length, additional_text)
-    swap
-    frame_dig -2
-    box_replace
-    b additional_box_characters_option_after_if_else@3
+    gtxns TypeEnum
+    intc_2 // appl
+    ==
+    assert // transaction type is appl
+    intc_1 // 0
+    gtxnsas ApplicationArgs
+    bytec 7 // method "prime_petition(application)void"
+    ==
+    assert
+    retsub
 
 
 // petition.PetitionMaster.contract_is_payment_receiver(pay_tx: uint64) -> void:
 contract_is_payment_receiver:
-    // python_implementations/contract/petition.py:93-94
+    // python_implementations/contract/petition.py:140-141
     // @subroutine
     // def contract_is_payment_receiver(self, pay_tx: gtxn.PaymentTransaction) -> None:
     proto 1 0
-    // python_implementations/contract/petition.py:95
+    // python_implementations/contract/petition.py:142
     // assert pay_tx.receiver == Global.current_application_address
     frame_dig -1
     gtxns Receiver
@@ -552,9 +761,90 @@ contract_is_payment_receiver:
     retsub
 
 
+// petition.PetitionMaster.create_petition_app() -> uint64:
+create_petition_app:
+    // python_implementations/contract/petition.py:150-156
+    // return itxn.ApplicationCall(
+    //             approval_program=self.petition_template_app.approval_program,
+    //             clear_state_program=self.petition_template_app.clear_state_program,
+    //             global_num_uint=4,
+    //             global_num_bytes=2,
+    //             # extra_program_pages=3,
+    //         ).submit().created_app
+    itxn_begin
+    // python_implementations/contract/petition.py:151
+    // approval_program=self.petition_template_app.approval_program,
+    intc_1 // 0
+    bytec_3 // "petition_template_app"
+    app_global_get_ex
+    assert // check self.petition_template_app exists
+    dup
+    app_params_get AppApprovalProgram
+    assert // application exists
+    // python_implementations/contract/petition.py:152
+    // clear_state_program=self.petition_template_app.clear_state_program,
+    swap
+    app_params_get AppClearStateProgram
+    assert // application exists
+    // python_implementations/contract/petition.py:154
+    // global_num_bytes=2,
+    pushint 2 // 2
+    itxn_field GlobalNumByteSlice
+    // python_implementations/contract/petition.py:153
+    // global_num_uint=4,
+    intc_3 // 4
+    itxn_field GlobalNumUint
+    itxn_field ClearStateProgramPages
+    itxn_field ApprovalProgramPages
+    // python_implementations/contract/petition.py:150
+    // return itxn.ApplicationCall(
+    intc_2 // appl
+    itxn_field TypeEnum
+    intc_1 // 0
+    itxn_field Fee
+    // python_implementations/contract/petition.py:150-156
+    // return itxn.ApplicationCall(
+    //             approval_program=self.petition_template_app.approval_program,
+    //             clear_state_program=self.petition_template_app.clear_state_program,
+    //             global_num_uint=4,
+    //             global_num_bytes=2,
+    //             # extra_program_pages=3,
+    //         ).submit().created_app
+    itxn_submit
+    itxn CreatedApplicationID
+    retsub
+
+
+// petition.PetitionMaster.prime_petition(petition_app_id: uint64) -> void:
+prime_petition:
+    // python_implementations/contract/petition.py:184-185
+    // @abimethod
+    // def prime_petition(self, petition_app_id: Application) -> None:
+    proto 1 0
+    // python_implementations/contract/petition.py:186
+    // self.is_creating_petition()
+    callsub is_creating_petition
+    // python_implementations/contract/petition.py:187-190
+    // result = abi_call(
+    //     Petition.prime_petition,
+    //     app_id=petition_app_id
+    // )
+    itxn_begin
+    frame_dig -1
+    itxn_field ApplicationID
+    pushbytes 0xef7e6e81 // method "prime_petition()void"
+    itxn_field ApplicationArgs
+    intc_2 // appl
+    itxn_field TypeEnum
+    intc_1 // 0
+    itxn_field Fee
+    itxn_submit
+    retsub
+
+
 // petition.PetitionMaster.sign_petition(petition_app: uint64, mbr_payment: uint64) -> void:
 sign_petition:
-    // python_implementations/contract/petition.py:140-145
+    // python_implementations/contract/petition.py:192-197
     // @abimethod
     // def sign_petition(
     //     self,
@@ -562,11 +852,11 @@ sign_petition:
     //     mbr_payment: gtxn.PaymentTransaction,
     // ) -> None:
     proto 2 0
-    // python_implementations/contract/petition.py:146
+    // python_implementations/contract/petition.py:198
     // self.contract_is_payment_receiver(pay_tx=mbr_payment)
     frame_dig -1
     callsub contract_is_payment_receiver
-    // python_implementations/contract/petition.py:166
+    // python_implementations/contract/petition.py:218
     // assert app_id.creator == Global.current_application_address
     frame_dig -2
     app_params_get AppCreator
@@ -574,16 +864,16 @@ sign_petition:
     global CurrentApplicationAddress
     ==
     assert
-    // python_implementations/contract/petition.py:150
+    // python_implementations/contract/petition.py:202
     // receiver=petition_app.address,
     frame_dig -2
     app_params_get AppAddress
     assert // application exists
-    // python_implementations/contract/petition.py:151
+    // python_implementations/contract/petition.py:203
     // amount=mbr_payment.amount
     frame_dig -1
     gtxns Amount
-    // python_implementations/contract/petition.py:154-159
+    // python_implementations/contract/petition.py:206-211
     // mbr_used, txn = abi_call(
     //     Petition.sign_petition,
     //     Txn.sender,
@@ -595,13 +885,13 @@ sign_petition:
     itxn_field Amount
     swap
     itxn_field Receiver
-    // python_implementations/contract/petition.py:149
+    // python_implementations/contract/petition.py:201
     // inner_mbr_payment = itxn.Payment(
     intc_0 // pay
     itxn_field TypeEnum
     intc_1 // 0
     itxn_field Fee
-    // python_implementations/contract/petition.py:154-159
+    // python_implementations/contract/petition.py:206-211
     // mbr_used, txn = abi_call(
     //     Petition.sign_petition,
     //     Txn.sender,
@@ -609,12 +899,12 @@ sign_petition:
     //     app_id=petition_app,
     // )
     itxn_next
-    // python_implementations/contract/petition.py:156
+    // python_implementations/contract/petition.py:208
     // Txn.sender,
     txn Sender
     frame_dig -2
     itxn_field ApplicationID
-    // python_implementations/contract/petition.py:154-159
+    // python_implementations/contract/petition.py:206-211
     // mbr_used, txn = abi_call(
     //     Petition.sign_petition,
     //     Txn.sender,
@@ -634,14 +924,14 @@ sign_petition:
     extract 4 0
     swap
     extract 0 4
-    bytec 4 // 0x151f7c75
+    bytec_2 // 0x151f7c75
     ==
     assert // application log value is not the result of an ABI return
     btoi
-    // python_implementations/contract/petition.py:161
+    // python_implementations/contract/petition.py:213
     // excess = mbr_payment.amount - mbr_used
     -
-    // python_implementations/contract/petition.py:162
+    // python_implementations/contract/petition.py:214
     // refund_excess(excess=excess)
     callsub refund_excess
     retsub

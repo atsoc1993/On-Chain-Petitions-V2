@@ -1,6 +1,6 @@
 from algokit_utils import PaymentParams, AlgoAmount
-from constants import master_petition_factory, petition_factory, algorand, signing_account_1
-from clients.PetitionMasterClient import AssignTemplateAppArgs
+from constants import master_petition_factory, petition_factory, algorand, signing_account_1, default_app_call_params, default_send_params
+from clients.PetitionMasterClient import AssignTemplateAppArgs, PrimeInitialPetitionArgs
 from dotenv import load_dotenv, set_key
 
 load_dotenv('python_implementations/.env')
@@ -57,3 +57,23 @@ new_group.add_transaction(
 new_group.send()
 print(f'Master Petition App Client Account MBR Funded')
 
+print(f'Priming Next (Initial) Petition [Only needs to be done manually for first petition] . . .')
+mbr_payment_tx = algorand.create_transaction.payment(
+    PaymentParams(
+        sender=signing_account_1.address,
+        signer=signing_account_1.signer,
+        amount=AlgoAmount(algo=1),
+        receiver=master_petition_app_client.app_address,
+        validity_window=1000,
+    )
+)
+
+txn_response = master_petition_app_client.send.prime_initial_petition(
+    args=PrimeInitialPetitionArgs(
+        mbr_payment=mbr_payment_tx
+    ),
+    params=default_app_call_params,
+    send_params=default_send_params
+)
+
+print(f'Next Petition Primed, Txn ID: {txn_response.tx_id}')

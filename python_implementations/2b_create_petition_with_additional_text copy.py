@@ -1,6 +1,6 @@
-from clients.PetitionMasterClient import CreatePetitionArgs, AdditionalBoxCharactersOptionArgs
+from clients.PetitionMasterClient import CreatePetitionArgs, AdditionalBoxCharactersOptionArgs, PrimePetitionArgs
 from algokit_utils import PaymentParams, AlgoAmount, CommonAppCallParams
-from constants import signing_account_1, get_master_petition_app_client, algorand, default_app_call_params, default_send_params
+from constants import signing_account_1, get_master_petition_app_client, algorand, default_app_call_params, default_send_params, master_petition_app_id
 
 master_petition_app_client = get_master_petition_app_client(signing_account=signing_account_1)
 
@@ -57,8 +57,18 @@ for i in range(len(subsequent_additional_texts)):
             note=f'{i}'
         )
     )
-    
 
+next_petition_app_id = algorand.app.get_global_state(app_id=master_petition_app_id).get('next_child_petition_app').value
+
+new_group.prime_petition(
+    args=PrimePetitionArgs(
+        petition_app_id=next_petition_app_id
+    ),
+    params=default_app_call_params
+)
+
+    
+print(len(new_group.composer().build_transactions().transactions))
 txn_response = new_group.send(
     send_params=default_send_params,
 )
