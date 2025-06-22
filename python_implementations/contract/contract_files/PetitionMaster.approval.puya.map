@@ -3,7 +3,7 @@
   "sources": [
     "../petition.py"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -14,7 +14,7 @@
       "op": "intcblock 1 0 6 4 100000"
     },
     "10": {
-      "op": "bytecblock \"petition_uid\" \"next_child_petition_app\" 0x151f7c75 \"petition_template_app\" \"template_app_assigned\" \"previous_child_petition_app\" 0x6b190f3e 0xb8742e41"
+      "op": "bytecblock 0x151f7c75 \"petition_uid\" \"next_child_petition_app\" \"petition_template_app\" \"template_app_assigned\" \"previous_child_petition_app\" 0x6b190f3e 0xb8742e41"
     },
     "136": {
       "op": "txn ApplicationID",
@@ -54,7 +54,7 @@
       "stack_out": []
     },
     "144": {
-      "op": "bytec_0 // \"petition_uid\"",
+      "op": "bytec_1 // \"petition_uid\"",
       "defined_out": [
         "\"petition_uid\""
       ],
@@ -118,7 +118,7 @@
       "stack_out": []
     },
     "164": {
-      "op": "bytec_1 // \"next_child_petition_app\"",
+      "op": "bytec_2 // \"next_child_petition_app\"",
       "defined_out": [
         "\"next_child_petition_app\""
       ],
@@ -149,7 +149,7 @@
       ]
     },
     "169": {
-      "op": "bz main_bare_routing@12",
+      "op": "bz main_bare_routing@13",
       "stack_out": []
     },
     "172": {
@@ -217,8 +217,9 @@
       ]
     },
     "199": {
-      "op": "pushbytes 0x5b6c1fd4 // method \"sign_petition(application,pay)void\"",
+      "op": "pushbytess 0x5b6c1fd4 0x51642b5c // method \"sign_petition(application,pay)void\", method \"add_comment(application,byte[],pay)void\"",
       "defined_out": [
+        "Method(add_comment(application,byte[],pay)void)",
         "Method(additional_box_characters_option(byte[],pay)void)",
         "Method(assign_template_app(application)void)",
         "Method(create_petition(byte[],byte[],pay)uint64)",
@@ -234,12 +235,14 @@
         "Method(create_petition(byte[],byte[],pay)uint64)",
         "Method(additional_box_characters_option(byte[],pay)void)",
         "Method(prime_petition(application)void)",
-        "Method(sign_petition(application,pay)void)"
+        "Method(sign_petition(application,pay)void)",
+        "Method(add_comment(application,byte[],pay)void)"
       ]
     },
-    "205": {
+    "211": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
+        "Method(add_comment(application,byte[],pay)void)",
         "Method(additional_box_characters_option(byte[],pay)void)",
         "Method(assign_template_app(application)void)",
         "Method(create_petition(byte[],byte[],pay)uint64)",
@@ -257,15 +260,16 @@
         "Method(additional_box_characters_option(byte[],pay)void)",
         "Method(prime_petition(application)void)",
         "Method(sign_petition(application,pay)void)",
+        "Method(add_comment(application,byte[],pay)void)",
         "tmp%2#0"
       ]
     },
-    "208": {
-      "op": "match main_update_route@5 main_assign_template_app_route@6 main_prime_initial_petition_route@7 main_create_petition_route@8 main_additional_box_characters_option_route@9 main_prime_petition_route@10 main_sign_petition_route@11",
+    "214": {
+      "op": "match main_update_route@5 main_assign_template_app_route@6 main_prime_initial_petition_route@7 main_create_petition_route@8 main_additional_box_characters_option_route@9 main_prime_petition_route@10 main_sign_petition_route@11 main_add_comment_route@12",
       "stack_out": []
     },
-    "224": {
-      "block": "main_after_if_else@14",
+    "232": {
+      "block": "main_after_if_else@15",
       "stack_in": [],
       "op": "intc_1 // 0",
       "defined_out": [
@@ -275,11 +279,218 @@
         "tmp%0#0"
       ]
     },
-    "225": {
+    "233": {
       "op": "return",
       "stack_out": []
     },
-    "226": {
+    "234": {
+      "block": "main_add_comment_route@12",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%46#0"
+      ],
+      "stack_out": [
+        "tmp%46#0"
+      ]
+    },
+    "236": {
+      "op": "!",
+      "defined_out": [
+        "tmp%47#0"
+      ],
+      "stack_out": [
+        "tmp%47#0"
+      ]
+    },
+    "237": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "238": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%48#0"
+      ],
+      "stack_out": [
+        "tmp%48#0"
+      ]
+    },
+    "240": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "241": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%3#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%3#0"
+      ]
+    },
+    "244": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%50#0"
+      ],
+      "stack_out": [
+        "tmp%50#0"
+      ]
+    },
+    "245": {
+      "op": "txnas Applications",
+      "defined_out": [
+        "tmp%51#0"
+      ],
+      "stack_out": [
+        "tmp%51#0"
+      ]
+    },
+    "247": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "tmp%51#0",
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0"
+      ]
+    },
+    "250": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "tmp%53#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "tmp%53#0"
+      ]
+    },
+    "252": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "tmp%51#0",
+        "tmp%52#0",
+        "tmp%53#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "tmp%53#0",
+        "1"
+      ]
+    },
+    "253": {
+      "op": "-",
+      "defined_out": [
+        "gtxn_idx%4#0",
+        "tmp%51#0",
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "gtxn_idx%4#0"
+      ]
+    },
+    "254": {
+      "op": "dup",
+      "defined_out": [
+        "gtxn_idx%4#0",
+        "gtxn_idx%4#0 (copy)",
+        "tmp%51#0",
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "gtxn_idx%4#0",
+        "gtxn_idx%4#0 (copy)"
+      ]
+    },
+    "255": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_idx%4#0",
+        "gtxn_type%4#0",
+        "tmp%51#0",
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "gtxn_idx%4#0",
+        "gtxn_type%4#0"
+      ]
+    },
+    "257": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "gtxn_idx%4#0",
+        "gtxn_type%4#0",
+        "pay",
+        "tmp%51#0",
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "gtxn_idx%4#0",
+        "gtxn_type%4#0",
+        "pay"
+      ]
+    },
+    "258": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_idx%4#0",
+        "gtxn_type_matches%4#0",
+        "tmp%51#0",
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "gtxn_idx%4#0",
+        "gtxn_type_matches%4#0"
+      ]
+    },
+    "259": {
+      "error": "transaction type is pay",
+      "op": "assert // transaction type is pay",
+      "stack_out": [
+        "tmp%51#0",
+        "tmp%52#0",
+        "gtxn_idx%4#0"
+      ]
+    },
+    "260": {
+      "callsub": "petition.PetitionMaster.add_comment",
+      "op": "callsub add_comment",
+      "stack_out": []
+    },
+    "263": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "264": {
+      "op": "return",
+      "stack_out": []
+    },
+    "265": {
       "block": "main_sign_petition_route@11",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -290,7 +501,7 @@
         "tmp%39#0"
       ]
     },
-    "228": {
+    "267": {
       "op": "!",
       "defined_out": [
         "tmp%40#0"
@@ -299,12 +510,12 @@
         "tmp%40#0"
       ]
     },
-    "229": {
+    "268": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "230": {
+    "269": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%41#0"
@@ -313,12 +524,12 @@
         "tmp%41#0"
       ]
     },
-    "232": {
+    "271": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "233": {
+    "272": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[1]%2#0"
@@ -327,7 +538,7 @@
         "reinterpret_bytes[1]%2#0"
       ]
     },
-    "236": {
+    "275": {
       "op": "btoi",
       "defined_out": [
         "tmp%43#0"
@@ -336,7 +547,7 @@
         "tmp%43#0"
       ]
     },
-    "237": {
+    "276": {
       "op": "txnas Applications",
       "defined_out": [
         "tmp%44#0"
@@ -345,7 +556,7 @@
         "tmp%44#0"
       ]
     },
-    "239": {
+    "278": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%44#0",
@@ -356,7 +567,7 @@
         "tmp%45#0"
       ]
     },
-    "241": {
+    "280": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -369,7 +580,7 @@
         "1"
       ]
     },
-    "242": {
+    "281": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%3#0",
@@ -380,7 +591,7 @@
         "gtxn_idx%3#0"
       ]
     },
-    "243": {
+    "282": {
       "op": "dup",
       "defined_out": [
         "gtxn_idx%3#0",
@@ -393,7 +604,7 @@
         "gtxn_idx%3#0 (copy)"
       ]
     },
-    "244": {
+    "283": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_idx%3#0",
@@ -406,7 +617,7 @@
         "gtxn_type%3#0"
       ]
     },
-    "246": {
+    "285": {
       "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_idx%3#0",
@@ -421,7 +632,7 @@
         "pay"
       ]
     },
-    "247": {
+    "286": {
       "op": "==",
       "defined_out": [
         "gtxn_idx%3#0",
@@ -434,7 +645,7 @@
         "gtxn_type_matches%3#0"
       ]
     },
-    "248": {
+    "287": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
@@ -442,12 +653,12 @@
         "gtxn_idx%3#0"
       ]
     },
-    "249": {
+    "288": {
       "callsub": "petition.PetitionMaster.sign_petition",
       "op": "callsub sign_petition",
       "stack_out": []
     },
-    "252": {
+    "291": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -456,11 +667,11 @@
         "tmp%0#0"
       ]
     },
-    "253": {
+    "292": {
       "op": "return",
       "stack_out": []
     },
-    "254": {
+    "293": {
       "block": "main_prime_petition_route@10",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -471,7 +682,7 @@
         "tmp%33#0"
       ]
     },
-    "256": {
+    "295": {
       "op": "!",
       "defined_out": [
         "tmp%34#0"
@@ -480,12 +691,12 @@
         "tmp%34#0"
       ]
     },
-    "257": {
+    "296": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "258": {
+    "297": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%35#0"
@@ -494,12 +705,12 @@
         "tmp%35#0"
       ]
     },
-    "260": {
+    "299": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "261": {
+    "300": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[1]%1#0"
@@ -508,7 +719,7 @@
         "reinterpret_bytes[1]%1#0"
       ]
     },
-    "264": {
+    "303": {
       "op": "btoi",
       "defined_out": [
         "tmp%37#0"
@@ -517,7 +728,7 @@
         "tmp%37#0"
       ]
     },
-    "265": {
+    "304": {
       "op": "txnas Applications",
       "defined_out": [
         "tmp%38#0"
@@ -526,12 +737,12 @@
         "tmp%38#0"
       ]
     },
-    "267": {
+    "306": {
       "callsub": "petition.PetitionMaster.prime_petition",
       "op": "callsub prime_petition",
       "stack_out": []
     },
-    "270": {
+    "309": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -540,11 +751,11 @@
         "tmp%0#0"
       ]
     },
-    "271": {
+    "310": {
       "op": "return",
       "stack_out": []
     },
-    "272": {
+    "311": {
       "block": "main_additional_box_characters_option_route@9",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -555,7 +766,7 @@
         "tmp%26#0"
       ]
     },
-    "274": {
+    "313": {
       "op": "!",
       "defined_out": [
         "tmp%27#0"
@@ -564,12 +775,12 @@
         "tmp%27#0"
       ]
     },
-    "275": {
+    "314": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "276": {
+    "315": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%28#0"
@@ -578,12 +789,12 @@
         "tmp%28#0"
       ]
     },
-    "278": {
+    "317": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "279": {
+    "318": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%30#0"
@@ -592,7 +803,7 @@
         "tmp%30#0"
       ]
     },
-    "282": {
+    "321": {
       "op": "extract 2 0",
       "defined_out": [
         "tmp%31#0"
@@ -601,7 +812,7 @@
         "tmp%31#0"
       ]
     },
-    "285": {
+    "324": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%31#0",
@@ -612,7 +823,7 @@
         "tmp%32#0"
       ]
     },
-    "287": {
+    "326": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -625,7 +836,7 @@
         "1"
       ]
     },
-    "288": {
+    "327": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%2#0",
@@ -636,7 +847,7 @@
         "gtxn_idx%2#0"
       ]
     },
-    "289": {
+    "328": {
       "op": "dup",
       "defined_out": [
         "gtxn_idx%2#0",
@@ -649,7 +860,7 @@
         "gtxn_idx%2#0 (copy)"
       ]
     },
-    "290": {
+    "329": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_idx%2#0",
@@ -662,7 +873,7 @@
         "gtxn_type%2#0"
       ]
     },
-    "292": {
+    "331": {
       "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_idx%2#0",
@@ -677,7 +888,7 @@
         "pay"
       ]
     },
-    "293": {
+    "332": {
       "op": "==",
       "defined_out": [
         "gtxn_idx%2#0",
@@ -690,7 +901,7 @@
         "gtxn_type_matches%2#0"
       ]
     },
-    "294": {
+    "333": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
@@ -698,12 +909,12 @@
         "gtxn_idx%2#0"
       ]
     },
-    "295": {
+    "334": {
       "callsub": "petition.PetitionMaster.additional_box_characters_option",
       "op": "callsub additional_box_characters_option",
       "stack_out": []
     },
-    "298": {
+    "337": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -712,11 +923,11 @@
         "tmp%0#0"
       ]
     },
-    "299": {
+    "338": {
       "op": "return",
       "stack_out": []
     },
-    "300": {
+    "339": {
       "block": "main_create_petition_route@8",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -727,7 +938,7 @@
         "tmp%18#0"
       ]
     },
-    "302": {
+    "341": {
       "op": "!",
       "defined_out": [
         "tmp%19#0"
@@ -736,12 +947,12 @@
         "tmp%19#0"
       ]
     },
-    "303": {
+    "342": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "304": {
+    "343": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%20#0"
@@ -750,12 +961,12 @@
         "tmp%20#0"
       ]
     },
-    "306": {
+    "345": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "307": {
+    "346": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%22#0"
@@ -764,7 +975,7 @@
         "tmp%22#0"
       ]
     },
-    "310": {
+    "349": {
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "tmp%22#0",
@@ -775,7 +986,7 @@
         "tmp%23#0"
       ]
     },
-    "313": {
+    "352": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%22#0",
@@ -788,7 +999,7 @@
         "tmp%24#0"
       ]
     },
-    "315": {
+    "354": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -803,7 +1014,7 @@
         "1"
       ]
     },
-    "316": {
+    "355": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%1#0",
@@ -816,7 +1027,7 @@
         "gtxn_idx%1#0"
       ]
     },
-    "317": {
+    "356": {
       "op": "dup",
       "defined_out": [
         "gtxn_idx%1#0",
@@ -831,7 +1042,7 @@
         "gtxn_idx%1#0 (copy)"
       ]
     },
-    "318": {
+    "357": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_idx%1#0",
@@ -846,7 +1057,7 @@
         "gtxn_type%1#0"
       ]
     },
-    "320": {
+    "359": {
       "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_idx%1#0",
@@ -863,7 +1074,7 @@
         "pay"
       ]
     },
-    "321": {
+    "360": {
       "op": "==",
       "defined_out": [
         "gtxn_idx%1#0",
@@ -878,7 +1089,7 @@
         "gtxn_type_matches%1#0"
       ]
     },
-    "322": {
+    "361": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
@@ -887,7 +1098,7 @@
         "gtxn_idx%1#0"
       ]
     },
-    "323": {
+    "362": {
       "callsub": "petition.PetitionMaster.create_petition",
       "op": "callsub create_petition",
       "defined_out": [
@@ -897,7 +1108,7 @@
         "to_encode%0#0"
       ]
     },
-    "326": {
+    "365": {
       "op": "itob",
       "defined_out": [
         "val_as_bytes%0#0"
@@ -906,8 +1117,8 @@
         "val_as_bytes%0#0"
       ]
     },
-    "327": {
-      "op": "bytec_2 // 0x151f7c75",
+    "366": {
+      "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
         "val_as_bytes%0#0"
@@ -917,14 +1128,14 @@
         "0x151f7c75"
       ]
     },
-    "328": {
+    "367": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "val_as_bytes%0#0"
       ]
     },
-    "329": {
+    "368": {
       "op": "concat",
       "defined_out": [
         "tmp%25#0"
@@ -933,11 +1144,11 @@
         "tmp%25#0"
       ]
     },
-    "330": {
+    "369": {
       "op": "log",
       "stack_out": []
     },
-    "331": {
+    "370": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -946,11 +1157,11 @@
         "tmp%0#0"
       ]
     },
-    "332": {
+    "371": {
       "op": "return",
       "stack_out": []
     },
-    "333": {
+    "372": {
       "block": "main_prime_initial_petition_route@7",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -961,7 +1172,7 @@
         "tmp%13#0"
       ]
     },
-    "335": {
+    "374": {
       "op": "!",
       "defined_out": [
         "tmp%14#0"
@@ -970,12 +1181,12 @@
         "tmp%14#0"
       ]
     },
-    "336": {
+    "375": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "337": {
+    "376": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%15#0"
@@ -984,12 +1195,12 @@
         "tmp%15#0"
       ]
     },
-    "339": {
+    "378": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "340": {
+    "379": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%17#0"
@@ -998,7 +1209,7 @@
         "tmp%17#0"
       ]
     },
-    "342": {
+    "381": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1009,7 +1220,7 @@
         "1"
       ]
     },
-    "343": {
+    "382": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%0#0"
@@ -1018,7 +1229,7 @@
         "gtxn_idx%0#0"
       ]
     },
-    "344": {
+    "383": {
       "op": "dup",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -1029,7 +1240,7 @@
         "gtxn_idx%0#0 (copy)"
       ]
     },
-    "345": {
+    "384": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -1040,7 +1251,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "347": {
+    "386": {
       "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -1053,7 +1264,7 @@
         "pay"
       ]
     },
-    "348": {
+    "387": {
       "op": "==",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -1064,19 +1275,19 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "349": {
+    "388": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
         "gtxn_idx%0#0"
       ]
     },
-    "350": {
+    "389": {
       "callsub": "petition.PetitionMaster.prime_initial_petition",
       "op": "callsub prime_initial_petition",
       "stack_out": []
     },
-    "353": {
+    "392": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -1085,11 +1296,11 @@
         "tmp%0#0"
       ]
     },
-    "354": {
+    "393": {
       "op": "return",
       "stack_out": []
     },
-    "355": {
+    "394": {
       "block": "main_assign_template_app_route@6",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -1100,7 +1311,7 @@
         "tmp%7#0"
       ]
     },
-    "357": {
+    "396": {
       "op": "!",
       "defined_out": [
         "tmp%8#0"
@@ -1109,12 +1320,12 @@
         "tmp%8#0"
       ]
     },
-    "358": {
+    "397": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "359": {
+    "398": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%9#0"
@@ -1123,12 +1334,12 @@
         "tmp%9#0"
       ]
     },
-    "361": {
+    "400": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "362": {
+    "401": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[1]%0#0"
@@ -1137,7 +1348,7 @@
         "reinterpret_bytes[1]%0#0"
       ]
     },
-    "365": {
+    "404": {
       "op": "btoi",
       "defined_out": [
         "tmp%11#0"
@@ -1146,7 +1357,7 @@
         "tmp%11#0"
       ]
     },
-    "366": {
+    "405": {
       "op": "txnas Applications",
       "defined_out": [
         "tmp%12#0"
@@ -1155,12 +1366,12 @@
         "tmp%12#0"
       ]
     },
-    "368": {
+    "407": {
       "callsub": "petition.PetitionMaster.assign_template_app",
       "op": "callsub assign_template_app",
       "stack_out": []
     },
-    "371": {
+    "410": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -1169,11 +1380,11 @@
         "tmp%0#0"
       ]
     },
-    "372": {
+    "411": {
       "op": "return",
       "stack_out": []
     },
-    "373": {
+    "412": {
       "block": "main_update_route@5",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -1184,7 +1395,7 @@
         "tmp%3#0"
       ]
     },
-    "375": {
+    "414": {
       "op": "intc_3 // UpdateApplication",
       "defined_out": [
         "UpdateApplication",
@@ -1195,7 +1406,7 @@
         "UpdateApplication"
       ]
     },
-    "376": {
+    "415": {
       "op": "==",
       "defined_out": [
         "tmp%4#0"
@@ -1204,12 +1415,12 @@
         "tmp%4#0"
       ]
     },
-    "377": {
+    "416": {
       "error": "OnCompletion is not UpdateApplication",
       "op": "assert // OnCompletion is not UpdateApplication",
       "stack_out": []
     },
-    "378": {
+    "417": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%5#0"
@@ -1218,16 +1429,16 @@
         "tmp%5#0"
       ]
     },
-    "380": {
+    "419": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "381": {
+    "420": {
       "callsub": "petition.PetitionMaster.update",
       "op": "callsub update"
     },
-    "384": {
+    "423": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -1236,49 +1447,49 @@
         "tmp%0#0"
       ]
     },
-    "385": {
+    "424": {
       "op": "return",
       "stack_out": []
     },
-    "386": {
-      "block": "main_bare_routing@12",
+    "425": {
+      "block": "main_bare_routing@13",
       "stack_in": [],
       "op": "txn OnCompletion",
       "defined_out": [
-        "tmp%46#0"
+        "tmp%54#0"
       ],
       "stack_out": [
-        "tmp%46#0"
+        "tmp%54#0"
       ]
     },
-    "388": {
-      "op": "bnz main_after_if_else@14",
+    "427": {
+      "op": "bnz main_after_if_else@15",
       "stack_out": []
     },
-    "391": {
+    "430": {
       "op": "txn ApplicationID",
       "defined_out": [
-        "tmp%47#0"
+        "tmp%55#0"
       ],
       "stack_out": [
-        "tmp%47#0"
+        "tmp%55#0"
       ]
     },
-    "393": {
+    "432": {
       "op": "!",
       "defined_out": [
-        "tmp%48#0"
+        "tmp%56#0"
       ],
       "stack_out": [
-        "tmp%48#0"
+        "tmp%56#0"
       ]
     },
-    "394": {
+    "433": {
       "error": "can only call when creating",
       "op": "assert // can only call when creating",
       "stack_out": []
     },
-    "395": {
+    "434": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -1287,11 +1498,11 @@
         "tmp%0#0"
       ]
     },
-    "396": {
+    "435": {
       "op": "return",
       "stack_out": []
     },
-    "397": {
+    "436": {
       "subroutine": "petition.refund_excess",
       "params": {
         "excess#0": "uint64"
@@ -1300,10 +1511,10 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "400": {
+    "439": {
       "op": "itxn_begin"
     },
-    "401": {
+    "440": {
       "op": "txn Sender",
       "defined_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0"
@@ -1312,7 +1523,7 @@
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "403": {
+    "442": {
       "op": "frame_dig -1",
       "defined_out": [
         "excess#0 (copy)",
@@ -1323,17 +1534,17 @@
         "excess#0 (copy)"
       ]
     },
-    "405": {
+    "444": {
       "op": "itxn_field Amount",
       "stack_out": [
         "inner_txn_params%0%%param_Receiver_idx_0#0"
       ]
     },
-    "407": {
+    "446": {
       "op": "itxn_field Receiver",
       "stack_out": []
     },
-    "409": {
+    "448": {
       "op": "intc_0 // pay",
       "defined_out": [
         "pay"
@@ -1342,11 +1553,11 @@
         "pay"
       ]
     },
-    "410": {
+    "449": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "412": {
+    "451": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0"
@@ -1355,18 +1566,18 @@
         "0"
       ]
     },
-    "413": {
+    "452": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "415": {
+    "454": {
       "op": "itxn_submit"
     },
-    "416": {
+    "455": {
       "retsub": true,
       "op": "retsub"
     },
-    "417": {
+    "456": {
       "subroutine": "petition.PetitionMaster.update",
       "params": {},
       "block": "update",
@@ -1374,11 +1585,11 @@
       "callsub": "petition.PetitionMaster.sender_is_creator",
       "op": "callsub sender_is_creator"
     },
-    "420": {
+    "459": {
       "retsub": true,
       "op": "retsub"
     },
-    "421": {
+    "460": {
       "subroutine": "petition.PetitionMaster.assign_template_app",
       "params": {
         "template_app#0": "uint64"
@@ -1387,11 +1598,11 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "424": {
+    "463": {
       "callsub": "petition.PetitionMaster.sender_is_creator",
       "op": "callsub sender_is_creator"
     },
-    "427": {
+    "466": {
       "op": "bytec_3 // \"petition_template_app\"",
       "defined_out": [
         "\"petition_template_app\""
@@ -1400,7 +1611,7 @@
         "\"petition_template_app\""
       ]
     },
-    "428": {
+    "467": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"petition_template_app\"",
@@ -1411,11 +1622,11 @@
         "template_app#0 (copy)"
       ]
     },
-    "430": {
+    "469": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "431": {
+    "470": {
       "op": "bytec 4 // \"template_app_assigned\"",
       "defined_out": [
         "\"template_app_assigned\""
@@ -1424,7 +1635,7 @@
         "\"template_app_assigned\""
       ]
     },
-    "433": {
+    "472": {
       "op": "intc_0 // 1",
       "defined_out": [
         "\"template_app_assigned\"",
@@ -1435,15 +1646,15 @@
         "1"
       ]
     },
-    "434": {
+    "473": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "435": {
+    "474": {
       "retsub": true,
       "op": "retsub"
     },
-    "436": {
+    "475": {
       "subroutine": "petition.PetitionMaster.prime_initial_petition",
       "params": {
         "mbr_payment#0": "uint64"
@@ -1452,11 +1663,11 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "439": {
+    "478": {
       "callsub": "petition.PetitionMaster.sender_is_creator",
       "op": "callsub sender_is_creator"
     },
-    "442": {
+    "481": {
       "op": "frame_dig -1",
       "defined_out": [
         "mbr_payment#0 (copy)"
@@ -1465,12 +1676,12 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "444": {
+    "483": {
       "callsub": "petition.PetitionMaster.contract_is_payment_receiver",
       "op": "callsub contract_is_payment_receiver",
       "stack_out": []
     },
-    "447": {
+    "486": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "tmp%0#1"
@@ -1479,7 +1690,7 @@
         "tmp%0#1"
       ]
     },
-    "449": {
+    "488": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%0#0",
@@ -1490,14 +1701,14 @@
         "check%0#0"
       ]
     },
-    "451": {
+    "490": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
         "pre_mbr#0"
       ]
     },
-    "452": {
+    "491": {
       "callsub": "petition.PetitionMaster.create_petition_app",
       "op": "callsub create_petition_app",
       "defined_out": [
@@ -1509,8 +1720,8 @@
         "materialized_values%0#0"
       ]
     },
-    "455": {
-      "op": "bytec_1 // \"next_child_petition_app\"",
+    "494": {
+      "op": "bytec_2 // \"next_child_petition_app\"",
       "defined_out": [
         "\"next_child_petition_app\"",
         "materialized_values%0#0",
@@ -1522,7 +1733,7 @@
         "\"next_child_petition_app\""
       ]
     },
-    "456": {
+    "495": {
       "op": "swap",
       "stack_out": [
         "pre_mbr#0",
@@ -1530,20 +1741,20 @@
         "materialized_values%0#0"
       ]
     },
-    "457": {
+    "496": {
       "op": "app_global_put",
       "stack_out": [
         "pre_mbr#0"
       ]
     },
-    "458": {
+    "497": {
       "op": "global CurrentApplicationAddress",
       "stack_out": [
         "pre_mbr#0",
         "tmp%0#1"
       ]
     },
-    "460": {
+    "499": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%0#0",
@@ -1556,7 +1767,7 @@
         "check%0#0"
       ]
     },
-    "462": {
+    "501": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -1564,14 +1775,14 @@
         "post_mbr#0"
       ]
     },
-    "463": {
+    "502": {
       "op": "swap",
       "stack_out": [
         "post_mbr#0",
         "pre_mbr#0"
       ]
     },
-    "464": {
+    "503": {
       "op": "-",
       "defined_out": [
         "mbr_cost#0"
@@ -1580,14 +1791,14 @@
         "mbr_cost#0"
       ]
     },
-    "465": {
+    "504": {
       "op": "frame_dig -1",
       "stack_out": [
         "mbr_cost#0",
         "mbr_payment#0 (copy)"
       ]
     },
-    "467": {
+    "506": {
       "op": "gtxns Amount",
       "defined_out": [
         "mbr_cost#0",
@@ -1598,14 +1809,14 @@
         "tmp%0#0"
       ]
     },
-    "469": {
+    "508": {
       "op": "swap",
       "stack_out": [
         "tmp%0#0",
         "mbr_cost#0"
       ]
     },
-    "470": {
+    "509": {
       "op": "-",
       "defined_out": [
         "excess#0"
@@ -1614,16 +1825,16 @@
         "excess#0"
       ]
     },
-    "471": {
+    "510": {
       "callsub": "petition.refund_excess",
       "op": "callsub refund_excess",
       "stack_out": []
     },
-    "474": {
+    "513": {
       "retsub": true,
       "op": "retsub"
     },
-    "475": {
+    "514": {
       "subroutine": "petition.PetitionMaster.sender_is_creator",
       "params": {},
       "block": "sender_is_creator",
@@ -1636,7 +1847,7 @@
         "tmp%0#0"
       ]
     },
-    "477": {
+    "516": {
       "op": "global CreatorAddress",
       "defined_out": [
         "tmp%0#0",
@@ -1647,7 +1858,7 @@
         "tmp%1#0"
       ]
     },
-    "479": {
+    "518": {
       "op": "==",
       "defined_out": [
         "tmp%2#0"
@@ -1656,15 +1867,15 @@
         "tmp%2#0"
       ]
     },
-    "480": {
+    "519": {
       "op": "assert",
       "stack_out": []
     },
-    "481": {
+    "520": {
       "retsub": true,
       "op": "retsub"
     },
-    "482": {
+    "521": {
       "subroutine": "petition.PetitionMaster.create_petition",
       "params": {
         "petition_title#0": "bytes",
@@ -1675,7 +1886,7 @@
       "stack_in": [],
       "op": "proto 3 1"
     },
-    "485": {
+    "524": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0"
@@ -1684,7 +1895,7 @@
         "0"
       ]
     },
-    "486": {
+    "525": {
       "op": "bytec 4 // \"template_app_assigned\"",
       "defined_out": [
         "\"template_app_assigned\"",
@@ -1695,7 +1906,7 @@
         "\"template_app_assigned\""
       ]
     },
-    "488": {
+    "527": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1706,14 +1917,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "489": {
+    "528": {
       "error": "check self.template_app_assigned exists",
       "op": "assert // check self.template_app_assigned exists",
       "stack_out": [
         "maybe_value%0#1"
       ]
     },
-    "490": {
+    "529": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1724,7 +1935,7 @@
         "1"
       ]
     },
-    "491": {
+    "530": {
       "op": "==",
       "defined_out": [
         "tmp%0#3"
@@ -1733,11 +1944,11 @@
         "tmp%0#3"
       ]
     },
-    "492": {
+    "531": {
       "op": "assert",
       "stack_out": []
     },
-    "493": {
+    "532": {
       "op": "frame_dig -1",
       "defined_out": [
         "mbr_payment#0 (copy)"
@@ -1746,23 +1957,23 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "495": {
+    "534": {
       "callsub": "petition.PetitionMaster.contract_is_payment_receiver",
       "op": "callsub contract_is_payment_receiver",
       "stack_out": []
     },
-    "498": {
+    "537": {
       "callsub": "petition.PetitionMaster.will_prime_petition",
       "op": "callsub will_prime_petition"
     },
-    "501": {
+    "540": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "502": {
-      "op": "bytec_0 // \"petition_uid\"",
+    "541": {
+      "op": "bytec_1 // \"petition_uid\"",
       "defined_out": [
         "\"petition_uid\"",
         "0"
@@ -1772,7 +1983,7 @@
         "\"petition_uid\""
       ]
     },
-    "503": {
+    "542": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1783,14 +1994,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "504": {
+    "543": {
       "error": "check self.petition_uid exists",
       "op": "assert // check self.petition_uid exists",
       "stack_out": [
         "maybe_value%0#2"
       ]
     },
-    "505": {
+    "544": {
       "op": "btoi",
       "defined_out": [
         "tmp%0#4"
@@ -1799,14 +2010,14 @@
         "tmp%0#4"
       ]
     },
-    "506": {
+    "545": {
       "op": "intc_0 // 1",
       "stack_out": [
         "tmp%0#4",
         "1"
       ]
     },
-    "507": {
+    "546": {
       "op": "+",
       "defined_out": [
         "to_encode%0#0"
@@ -1815,7 +2026,7 @@
         "to_encode%0#0"
       ]
     },
-    "508": {
+    "547": {
       "op": "itob",
       "defined_out": [
         "val_as_bytes%0#0"
@@ -1824,32 +2035,32 @@
         "val_as_bytes%0#0"
       ]
     },
-    "509": {
-      "op": "bytec_0 // \"petition_uid\"",
+    "548": {
+      "op": "bytec_1 // \"petition_uid\"",
       "stack_out": [
         "val_as_bytes%0#0",
         "\"petition_uid\""
       ]
     },
-    "510": {
+    "549": {
       "op": "swap",
       "stack_out": [
         "\"petition_uid\"",
         "val_as_bytes%0#0"
       ]
     },
-    "511": {
+    "550": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "512": {
+    "551": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "513": {
-      "op": "bytec_1 // \"next_child_petition_app\"",
+    "552": {
+      "op": "bytec_2 // \"next_child_petition_app\"",
       "defined_out": [
         "\"next_child_petition_app\"",
         "0"
@@ -1859,7 +2070,7 @@
         "\"next_child_petition_app\""
       ]
     },
-    "514": {
+    "553": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1870,14 +2081,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "515": {
+    "554": {
       "error": "check self.next_child_petition_app exists",
       "op": "assert // check self.next_child_petition_app exists",
       "stack_out": [
         "petition_app#0"
       ]
     },
-    "516": {
+    "555": {
       "op": "bytec 5 // \"previous_child_petition_app\"",
       "defined_out": [
         "\"previous_child_petition_app\"",
@@ -1888,7 +2099,7 @@
         "\"previous_child_petition_app\""
       ]
     },
-    "518": {
+    "557": {
       "op": "dig 1",
       "defined_out": [
         "\"previous_child_petition_app\"",
@@ -1901,20 +2112,20 @@
         "petition_app#0 (copy)"
       ]
     },
-    "520": {
+    "559": {
       "op": "app_global_put",
       "stack_out": [
         "petition_app#0"
       ]
     },
-    "521": {
+    "560": {
       "op": "dup",
       "stack_out": [
         "petition_app#0",
         "petition_app#0 (copy)"
       ]
     },
-    "522": {
+    "561": {
       "op": "app_params_get AppAddress",
       "defined_out": [
         "check%0#0",
@@ -1927,7 +2138,7 @@
         "check%0#0"
       ]
     },
-    "524": {
+    "563": {
       "error": "application exists",
       "op": "assert // application exists",
       "stack_out": [
@@ -1935,7 +2146,7 @@
         "value%0#0"
       ]
     },
-    "525": {
+    "564": {
       "op": "frame_dig -1",
       "stack_out": [
         "petition_app#0",
@@ -1943,7 +2154,7 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "527": {
+    "566": {
       "op": "gtxns Amount",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -1956,10 +2167,10 @@
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "529": {
+    "568": {
       "op": "itxn_begin"
     },
-    "530": {
+    "569": {
       "op": "dup",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -1974,7 +2185,7 @@
         "inner_mbr_payment%%param_Amount_idx_0#0 (copy)"
       ]
     },
-    "531": {
+    "570": {
       "op": "itxn_field Amount",
       "stack_out": [
         "petition_app#0",
@@ -1982,7 +2193,7 @@
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "533": {
+    "572": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -1990,14 +2201,14 @@
         "value%0#0"
       ]
     },
-    "534": {
+    "573": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "536": {
+    "575": {
       "op": "intc_0 // pay",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2010,14 +2221,14 @@
         "pay"
       ]
     },
-    "537": {
+    "576": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "539": {
+    "578": {
       "op": "intc_1 // 0",
       "stack_out": [
         "petition_app#0",
@@ -2025,17 +2236,17 @@
         "0"
       ]
     },
-    "540": {
+    "579": {
       "op": "itxn_field Fee",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "542": {
+    "581": {
       "op": "itxn_next"
     },
-    "543": {
+    "582": {
       "op": "dig 1",
       "stack_out": [
         "petition_app#0",
@@ -2043,14 +2254,14 @@
         "petition_app#0 (copy)"
       ]
     },
-    "545": {
+    "584": {
       "op": "itxn_field ApplicationID",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "547": {
+    "586": {
       "op": "bytec 6 // method \"create_petition(byte[],byte[],pay)uint64\"",
       "defined_out": [
         "Method(create_petition(byte[],byte[],pay)uint64)",
@@ -2063,14 +2274,14 @@
         "Method(create_petition(byte[],byte[],pay)uint64)"
       ]
     },
-    "549": {
+    "588": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "551": {
+    "590": {
       "op": "frame_dig -3",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2083,14 +2294,14 @@
         "petition_title#0 (copy)"
       ]
     },
-    "553": {
+    "592": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "555": {
+    "594": {
       "op": "frame_dig -2",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2103,14 +2314,14 @@
         "petition_text#0 (copy)"
       ]
     },
-    "557": {
+    "596": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "559": {
+    "598": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl",
@@ -2123,14 +2334,14 @@
         "appl"
       ]
     },
-    "560": {
+    "599": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "562": {
+    "601": {
       "op": "intc_1 // 0",
       "stack_out": [
         "petition_app#0",
@@ -2138,17 +2349,17 @@
         "0"
       ]
     },
-    "563": {
+    "602": {
       "op": "itxn_field Fee",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "565": {
+    "604": {
       "op": "itxn_submit"
     },
-    "566": {
+    "605": {
       "op": "gitxn 1 LastLog",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2161,7 +2372,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "569": {
+    "608": {
       "op": "dup",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2176,7 +2387,7 @@
         "awst_tmp%0#0 (copy)"
       ]
     },
-    "570": {
+    "609": {
       "op": "extract 4 0",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2191,7 +2402,7 @@
         "tmp%0#0"
       ]
     },
-    "573": {
+    "612": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -2200,7 +2411,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "574": {
+    "613": {
       "op": "extract 0 4",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2215,8 +2426,8 @@
         "tmp%1#0"
       ]
     },
-    "577": {
-      "op": "bytec_2 // 0x151f7c75",
+    "616": {
+      "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2232,7 +2443,7 @@
         "0x151f7c75"
       ]
     },
-    "578": {
+    "617": {
       "op": "==",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2247,7 +2458,7 @@
         "tmp%2#0"
       ]
     },
-    "579": {
+    "618": {
       "error": "application log value is not the result of an ABI return",
       "op": "assert // application log value is not the result of an ABI return",
       "stack_out": [
@@ -2256,7 +2467,7 @@
         "tmp%0#0"
       ]
     },
-    "580": {
+    "619": {
       "op": "btoi",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2269,7 +2480,7 @@
         "mbr_used#0"
       ]
     },
-    "581": {
+    "620": {
       "op": "global CurrentApplicationAddress",
       "stack_out": [
         "petition_app#0",
@@ -2278,7 +2489,7 @@
         "tmp%0#0"
       ]
     },
-    "583": {
+    "622": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%0#0",
@@ -2295,7 +2506,7 @@
         "check%0#0"
       ]
     },
-    "585": {
+    "624": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -2305,7 +2516,7 @@
         "pre_mbr#0"
       ]
     },
-    "586": {
+    "625": {
       "callsub": "petition.PetitionMaster.create_petition_app",
       "op": "callsub create_petition_app",
       "defined_out": [
@@ -2323,8 +2534,8 @@
         "materialized_values%0#0"
       ]
     },
-    "589": {
-      "op": "bytec_1 // \"next_child_petition_app\"",
+    "628": {
+      "op": "bytec_2 // \"next_child_petition_app\"",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2334,7 +2545,7 @@
         "\"next_child_petition_app\""
       ]
     },
-    "590": {
+    "629": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -2345,7 +2556,7 @@
         "materialized_values%0#0"
       ]
     },
-    "591": {
+    "630": {
       "op": "app_global_put",
       "stack_out": [
         "petition_app#0",
@@ -2354,10 +2565,10 @@
         "pre_mbr#0"
       ]
     },
-    "592": {
+    "631": {
       "op": "itxn_begin"
     },
-    "593": {
+    "632": {
       "op": "dig 3",
       "stack_out": [
         "petition_app#0",
@@ -2367,7 +2578,7 @@
         "petition_app#0 (copy)"
       ]
     },
-    "595": {
+    "634": {
       "op": "app_params_get AppAddress",
       "stack_out": [
         "petition_app#0",
@@ -2378,7 +2589,7 @@
         "check%0#0"
       ]
     },
-    "597": {
+    "636": {
       "error": "application exists",
       "op": "assert // application exists",
       "stack_out": [
@@ -2389,7 +2600,7 @@
         "value%0#0"
       ]
     },
-    "598": {
+    "637": {
       "op": "intc 4 // 100000",
       "defined_out": [
         "100000",
@@ -2408,7 +2619,7 @@
         "100000"
       ]
     },
-    "600": {
+    "639": {
       "op": "itxn_field Amount",
       "stack_out": [
         "petition_app#0",
@@ -2418,7 +2629,7 @@
         "value%0#0"
       ]
     },
-    "602": {
+    "641": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "petition_app#0",
@@ -2427,7 +2638,7 @@
         "pre_mbr#0"
       ]
     },
-    "604": {
+    "643": {
       "op": "intc_0 // pay",
       "stack_out": [
         "petition_app#0",
@@ -2437,7 +2648,7 @@
         "pay"
       ]
     },
-    "605": {
+    "644": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "petition_app#0",
@@ -2446,7 +2657,7 @@
         "pre_mbr#0"
       ]
     },
-    "607": {
+    "646": {
       "op": "intc_1 // 0",
       "stack_out": [
         "petition_app#0",
@@ -2456,7 +2667,7 @@
         "0"
       ]
     },
-    "608": {
+    "647": {
       "op": "itxn_field Fee",
       "stack_out": [
         "petition_app#0",
@@ -2465,13 +2676,13 @@
         "pre_mbr#0"
       ]
     },
-    "610": {
+    "649": {
       "op": "itxn_submit"
     },
-    "611": {
+    "650": {
       "op": "itxn_begin"
     },
-    "612": {
+    "651": {
       "op": "txn Sender",
       "stack_out": [
         "petition_app#0",
@@ -2481,7 +2692,7 @@
         "tmp%0#0"
       ]
     },
-    "614": {
+    "653": {
       "op": "global CurrentApplicationID",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2500,7 +2711,7 @@
         "tmp%1#1"
       ]
     },
-    "616": {
+    "655": {
       "op": "dig 5",
       "stack_out": [
         "petition_app#0",
@@ -2512,7 +2723,7 @@
         "petition_app#0 (copy)"
       ]
     },
-    "618": {
+    "657": {
       "op": "itxn_field ApplicationID",
       "stack_out": [
         "petition_app#0",
@@ -2523,7 +2734,7 @@
         "tmp%1#1"
       ]
     },
-    "620": {
+    "659": {
       "op": "itxn_field Applications",
       "stack_out": [
         "petition_app#0",
@@ -2533,7 +2744,7 @@
         "tmp%0#0"
       ]
     },
-    "622": {
+    "661": {
       "op": "itxn_field Accounts",
       "stack_out": [
         "petition_app#0",
@@ -2542,7 +2753,7 @@
         "pre_mbr#0"
       ]
     },
-    "624": {
+    "663": {
       "op": "pushbytes 0x1fdef813 // method \"assign_master_and_petition_creator(application,account)void\"",
       "defined_out": [
         "Method(assign_master_and_petition_creator(application,account)void)",
@@ -2559,7 +2770,7 @@
         "Method(assign_master_and_petition_creator(application,account)void)"
       ]
     },
-    "630": {
+    "669": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "petition_app#0",
@@ -2568,7 +2779,7 @@
         "pre_mbr#0"
       ]
     },
-    "632": {
+    "671": {
       "op": "pushbytes 0x01",
       "defined_out": [
         "0x01",
@@ -2585,7 +2796,7 @@
         "0x01"
       ]
     },
-    "635": {
+    "674": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "petition_app#0",
@@ -2594,7 +2805,7 @@
         "pre_mbr#0"
       ]
     },
-    "637": {
+    "676": {
       "op": "pushbytes 0x01",
       "stack_out": [
         "petition_app#0",
@@ -2604,7 +2815,7 @@
         "0x01"
       ]
     },
-    "640": {
+    "679": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "petition_app#0",
@@ -2613,7 +2824,7 @@
         "pre_mbr#0"
       ]
     },
-    "642": {
+    "681": {
       "op": "intc_2 // appl",
       "stack_out": [
         "petition_app#0",
@@ -2623,7 +2834,7 @@
         "appl"
       ]
     },
-    "643": {
+    "682": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "petition_app#0",
@@ -2632,7 +2843,7 @@
         "pre_mbr#0"
       ]
     },
-    "645": {
+    "684": {
       "op": "intc_1 // 0",
       "stack_out": [
         "petition_app#0",
@@ -2642,7 +2853,7 @@
         "0"
       ]
     },
-    "646": {
+    "685": {
       "op": "itxn_field Fee",
       "stack_out": [
         "petition_app#0",
@@ -2651,10 +2862,10 @@
         "pre_mbr#0"
       ]
     },
-    "648": {
+    "687": {
       "op": "itxn_submit"
     },
-    "649": {
+    "688": {
       "op": "dig 3",
       "stack_out": [
         "petition_app#0",
@@ -2664,7 +2875,7 @@
         "petition_app#0 (copy)"
       ]
     },
-    "651": {
+    "690": {
       "op": "itob",
       "stack_out": [
         "petition_app#0",
@@ -2674,7 +2885,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "652": {
+    "691": {
       "op": "txn Sender",
       "stack_out": [
         "petition_app#0",
@@ -2685,7 +2896,7 @@
         "tmp%0#0"
       ]
     },
-    "654": {
+    "693": {
       "op": "global LatestTimestamp",
       "stack_out": [
         "petition_app#0",
@@ -2697,7 +2908,7 @@
         "to_encode%0#0"
       ]
     },
-    "656": {
+    "695": {
       "op": "itob",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2718,7 +2929,7 @@
         "val_as_bytes%1#0"
       ]
     },
-    "657": {
+    "696": {
       "op": "uncover 2",
       "stack_out": [
         "petition_app#0",
@@ -2730,7 +2941,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "659": {
+    "698": {
       "op": "pushbytes 0x0032",
       "defined_out": [
         "0x0032",
@@ -2753,7 +2964,7 @@
         "0x0032"
       ]
     },
-    "663": {
+    "702": {
       "op": "concat",
       "defined_out": [
         "encoded_tuple_buffer%2#0",
@@ -2774,7 +2985,7 @@
         "encoded_tuple_buffer%2#0"
       ]
     },
-    "664": {
+    "703": {
       "op": "uncover 2",
       "stack_out": [
         "petition_app#0",
@@ -2786,7 +2997,7 @@
         "tmp%0#0"
       ]
     },
-    "666": {
+    "705": {
       "op": "concat",
       "defined_out": [
         "encoded_tuple_buffer%3#0",
@@ -2805,7 +3016,7 @@
         "encoded_tuple_buffer%3#0"
       ]
     },
-    "667": {
+    "706": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -2816,7 +3027,7 @@
         "val_as_bytes%1#0"
       ]
     },
-    "668": {
+    "707": {
       "op": "concat",
       "defined_out": [
         "encoded_tuple_buffer%4#0",
@@ -2833,7 +3044,7 @@
         "encoded_tuple_buffer%4#0"
       ]
     },
-    "669": {
+    "708": {
       "op": "frame_dig -3",
       "stack_out": [
         "petition_app#0",
@@ -2844,7 +3055,7 @@
         "petition_title#0 (copy)"
       ]
     },
-    "671": {
+    "710": {
       "op": "concat",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2861,7 +3072,7 @@
         "petition_info#0"
       ]
     },
-    "672": {
+    "711": {
       "op": "intc_1 // 0",
       "stack_out": [
         "petition_app#0",
@@ -2872,8 +3083,8 @@
         "0"
       ]
     },
-    "673": {
-      "op": "bytec_0 // \"petition_uid\"",
+    "712": {
+      "op": "bytec_1 // \"petition_uid\"",
       "stack_out": [
         "petition_app#0",
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2884,7 +3095,7 @@
         "\"petition_uid\""
       ]
     },
-    "674": {
+    "713": {
       "op": "app_global_get_ex",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2905,7 +3116,7 @@
         "maybe_exists%3#0"
       ]
     },
-    "675": {
+    "714": {
       "error": "check self.petition_uid exists",
       "op": "assert // check self.petition_uid exists",
       "stack_out": [
@@ -2917,7 +3128,7 @@
         "maybe_value%3#0"
       ]
     },
-    "676": {
+    "715": {
       "op": "dup",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2938,7 +3149,7 @@
         "maybe_value%3#0 (copy)"
       ]
     },
-    "677": {
+    "716": {
       "op": "box_del",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -2959,7 +3170,7 @@
         "{box_del}"
       ]
     },
-    "678": {
+    "717": {
       "op": "pop",
       "stack_out": [
         "petition_app#0",
@@ -2970,7 +3181,7 @@
         "maybe_value%3#0"
       ]
     },
-    "679": {
+    "718": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -2981,7 +3192,7 @@
         "petition_info#0"
       ]
     },
-    "680": {
+    "719": {
       "op": "box_put",
       "stack_out": [
         "petition_app#0",
@@ -2990,7 +3201,7 @@
         "pre_mbr#0"
       ]
     },
-    "681": {
+    "720": {
       "op": "global CurrentApplicationAddress",
       "stack_out": [
         "petition_app#0",
@@ -3000,7 +3211,7 @@
         "tmp%0#0"
       ]
     },
-    "683": {
+    "722": {
       "op": "acct_params_get AcctMinBalance",
       "defined_out": [
         "check%0#0",
@@ -3019,7 +3230,7 @@
         "check%0#0"
       ]
     },
-    "685": {
+    "724": {
       "error": "account funded",
       "op": "assert // account funded",
       "stack_out": [
@@ -3030,7 +3241,7 @@
         "post_mbr#0"
       ]
     },
-    "686": {
+    "725": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -3040,7 +3251,7 @@
         "pre_mbr#0"
       ]
     },
-    "687": {
+    "726": {
       "op": "-",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3055,7 +3266,7 @@
         "tmp%4#0"
       ]
     },
-    "688": {
+    "727": {
       "op": "intc 4 // 100000",
       "stack_out": [
         "petition_app#0",
@@ -3065,7 +3276,7 @@
         "100000"
       ]
     },
-    "690": {
+    "729": {
       "op": "+",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3080,7 +3291,7 @@
         "mbr_cost#0"
       ]
     },
-    "691": {
+    "730": {
       "op": "uncover 2",
       "stack_out": [
         "petition_app#0",
@@ -3089,7 +3300,7 @@
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "693": {
+    "732": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -3098,7 +3309,7 @@
         "mbr_cost#0"
       ]
     },
-    "694": {
+    "733": {
       "op": "-",
       "defined_out": [
         "mbr_used#0",
@@ -3111,7 +3322,7 @@
         "tmp%6#0"
       ]
     },
-    "695": {
+    "734": {
       "op": "swap",
       "stack_out": [
         "petition_app#0",
@@ -3119,7 +3330,7 @@
         "mbr_used#0"
       ]
     },
-    "696": {
+    "735": {
       "op": "-",
       "defined_out": [
         "excess#0",
@@ -3130,18 +3341,18 @@
         "excess#0"
       ]
     },
-    "697": {
+    "736": {
       "callsub": "petition.refund_excess",
       "op": "callsub refund_excess",
       "stack_out": [
         "petition_app#0"
       ]
     },
-    "700": {
+    "739": {
       "retsub": true,
       "op": "retsub"
     },
-    "701": {
+    "740": {
       "subroutine": "petition.PetitionMaster.additional_box_characters_option",
       "params": {
         "additional_text#0": "bytes",
@@ -3151,15 +3362,15 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "704": {
+    "743": {
       "callsub": "petition.PetitionMaster.is_creating_petition",
       "op": "callsub is_creating_petition"
     },
-    "707": {
+    "746": {
       "callsub": "petition.PetitionMaster.will_prime_petition",
       "op": "callsub will_prime_petition"
     },
-    "710": {
+    "749": {
       "op": "frame_dig -1",
       "defined_out": [
         "mbr_payment#0 (copy)"
@@ -3168,12 +3379,12 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "712": {
+    "751": {
       "callsub": "petition.PetitionMaster.contract_is_payment_receiver",
       "op": "callsub contract_is_payment_receiver",
       "stack_out": []
     },
-    "715": {
+    "754": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0"
@@ -3182,7 +3393,7 @@
         "0"
       ]
     },
-    "716": {
+    "755": {
       "op": "bytec 5 // \"previous_child_petition_app\"",
       "defined_out": [
         "\"previous_child_petition_app\"",
@@ -3193,7 +3404,7 @@
         "\"previous_child_petition_app\""
       ]
     },
-    "718": {
+    "757": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -3204,14 +3415,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "719": {
+    "758": {
       "error": "check self.previous_child_petition_app exists",
       "op": "assert // check self.previous_child_petition_app exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "720": {
+    "759": {
       "op": "dup",
       "defined_out": [
         "maybe_value%0#0",
@@ -3222,7 +3433,7 @@
         "maybe_value%0#0 (copy)"
       ]
     },
-    "721": {
+    "760": {
       "op": "app_params_get AppAddress",
       "defined_out": [
         "check%0#0",
@@ -3235,7 +3446,7 @@
         "check%0#0"
       ]
     },
-    "723": {
+    "762": {
       "error": "application exists",
       "op": "assert // application exists",
       "stack_out": [
@@ -3243,7 +3454,7 @@
         "value%0#0"
       ]
     },
-    "724": {
+    "763": {
       "op": "frame_dig -1",
       "stack_out": [
         "maybe_value%0#0",
@@ -3251,7 +3462,7 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "726": {
+    "765": {
       "op": "gtxns Amount",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3264,10 +3475,10 @@
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "728": {
+    "767": {
       "op": "itxn_begin"
     },
-    "729": {
+    "768": {
       "op": "dup",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3282,7 +3493,7 @@
         "inner_mbr_payment%%param_Amount_idx_0#0 (copy)"
       ]
     },
-    "730": {
+    "769": {
       "op": "itxn_field Amount",
       "stack_out": [
         "maybe_value%0#0",
@@ -3290,7 +3501,7 @@
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "732": {
+    "771": {
       "op": "swap",
       "stack_out": [
         "maybe_value%0#0",
@@ -3298,14 +3509,14 @@
         "value%0#0"
       ]
     },
-    "733": {
+    "772": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "maybe_value%0#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "735": {
+    "774": {
       "op": "intc_0 // pay",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3318,14 +3529,14 @@
         "pay"
       ]
     },
-    "736": {
+    "775": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "maybe_value%0#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "738": {
+    "777": {
       "op": "intc_1 // 0",
       "stack_out": [
         "maybe_value%0#0",
@@ -3333,17 +3544,17 @@
         "0"
       ]
     },
-    "739": {
+    "778": {
       "op": "itxn_field Fee",
       "stack_out": [
         "maybe_value%0#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "741": {
+    "780": {
       "op": "itxn_next"
     },
-    "742": {
+    "781": {
       "op": "frame_dig -2",
       "defined_out": [
         "additional_text#0 (copy)",
@@ -3356,7 +3567,7 @@
         "additional_text#0 (copy)"
       ]
     },
-    "744": {
+    "783": {
       "op": "len",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3369,7 +3580,7 @@
         "length%0#0"
       ]
     },
-    "745": {
+    "784": {
       "op": "itob",
       "defined_out": [
         "as_bytes%0#0",
@@ -3382,7 +3593,7 @@
         "as_bytes%0#0"
       ]
     },
-    "746": {
+    "785": {
       "op": "extract 6 2",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3395,7 +3606,7 @@
         "length_uint16%0#0"
       ]
     },
-    "749": {
+    "788": {
       "op": "frame_dig -2",
       "stack_out": [
         "maybe_value%0#0",
@@ -3404,7 +3615,7 @@
         "additional_text#0 (copy)"
       ]
     },
-    "751": {
+    "790": {
       "op": "concat",
       "defined_out": [
         "encoded_value%0#0",
@@ -3417,7 +3628,7 @@
         "encoded_value%0#0"
       ]
     },
-    "752": {
+    "791": {
       "op": "uncover 2",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3425,14 +3636,14 @@
         "maybe_value%0#0"
       ]
     },
-    "754": {
+    "793": {
       "op": "itxn_field ApplicationID",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "encoded_value%0#0"
       ]
     },
-    "756": {
+    "795": {
       "op": "pushbytes 0x05d0a49b // method \"additional_box_characters_option(byte[],pay)uint64\"",
       "defined_out": [
         "Method(additional_box_characters_option(byte[],pay)uint64)",
@@ -3445,20 +3656,20 @@
         "Method(additional_box_characters_option(byte[],pay)uint64)"
       ]
     },
-    "762": {
+    "801": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "encoded_value%0#0"
       ]
     },
-    "764": {
+    "803": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "766": {
+    "805": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl",
@@ -3469,29 +3680,29 @@
         "appl"
       ]
     },
-    "767": {
+    "806": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "769": {
+    "808": {
       "op": "intc_1 // 0",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "0"
       ]
     },
-    "770": {
+    "809": {
       "op": "itxn_field Fee",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "772": {
+    "811": {
       "op": "itxn_submit"
     },
-    "773": {
+    "812": {
       "op": "gitxn 1 LastLog",
       "defined_out": [
         "awst_tmp%0#0",
@@ -3502,7 +3713,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "776": {
+    "815": {
       "op": "dup",
       "defined_out": [
         "awst_tmp%0#0",
@@ -3515,7 +3726,7 @@
         "awst_tmp%0#0 (copy)"
       ]
     },
-    "777": {
+    "816": {
       "op": "extract 4 0",
       "defined_out": [
         "awst_tmp%0#0",
@@ -3528,7 +3739,7 @@
         "tmp%0#0"
       ]
     },
-    "780": {
+    "819": {
       "op": "swap",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3536,7 +3747,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "781": {
+    "820": {
       "op": "extract 0 4",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3549,8 +3760,8 @@
         "tmp%1#0"
       ]
     },
-    "784": {
-      "op": "bytec_2 // 0x151f7c75",
+    "823": {
+      "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3564,7 +3775,7 @@
         "0x151f7c75"
       ]
     },
-    "785": {
+    "824": {
       "op": "==",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3577,7 +3788,7 @@
         "tmp%2#0"
       ]
     },
-    "786": {
+    "825": {
       "error": "application log value is not the result of an ABI return",
       "op": "assert // application log value is not the result of an ABI return",
       "stack_out": [
@@ -3585,7 +3796,7 @@
         "tmp%0#0"
       ]
     },
-    "787": {
+    "826": {
       "op": "btoi",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -3596,7 +3807,7 @@
         "mbr_used#0"
       ]
     },
-    "788": {
+    "827": {
       "op": "-",
       "defined_out": [
         "excess#0"
@@ -3605,16 +3816,16 @@
         "excess#0"
       ]
     },
-    "789": {
+    "828": {
       "callsub": "petition.refund_excess",
       "op": "callsub refund_excess",
       "stack_out": []
     },
-    "792": {
+    "831": {
       "retsub": true,
       "op": "retsub"
     },
-    "793": {
+    "832": {
       "subroutine": "petition.PetitionMaster.is_creating_petition",
       "params": {},
       "block": "is_creating_petition",
@@ -3627,7 +3838,7 @@
         "1"
       ]
     },
-    "794": {
+    "833": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_type%0#0"
@@ -3636,7 +3847,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "796": {
+    "835": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl",
@@ -3647,7 +3858,7 @@
         "appl"
       ]
     },
-    "797": {
+    "836": {
       "op": "==",
       "defined_out": [
         "gtxn_type_matches%0#0"
@@ -3656,18 +3867,18 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "798": {
+    "837": {
       "error": "transaction type is appl",
       "op": "assert // transaction type is appl",
       "stack_out": []
     },
-    "799": {
+    "838": {
       "op": "intc_0 // 1",
       "stack_out": [
         "1"
       ]
     },
-    "800": {
+    "839": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -3678,7 +3889,7 @@
         "0"
       ]
     },
-    "801": {
+    "840": {
       "op": "gtxnsas ApplicationArgs",
       "defined_out": [
         "tmp%0#0"
@@ -3687,7 +3898,7 @@
         "tmp%0#0"
       ]
     },
-    "803": {
+    "842": {
       "op": "bytec 6 // method \"create_petition(byte[],byte[],pay)uint64\"",
       "defined_out": [
         "Method(create_petition(byte[],byte[],pay)uint64)",
@@ -3698,7 +3909,7 @@
         "Method(create_petition(byte[],byte[],pay)uint64)"
       ]
     },
-    "805": {
+    "844": {
       "op": "==",
       "defined_out": [
         "tmp%1#0"
@@ -3707,17 +3918,17 @@
         "tmp%1#0"
       ]
     },
-    "806": {
+    "845": {
       "op": "assert",
       "stack_out": []
     },
-    "807": {
+    "846": {
       "op": "intc_0 // 1",
       "stack_out": [
         "1"
       ]
     },
-    "808": {
+    "847": {
       "op": "gtxns ApplicationID",
       "defined_out": [
         "tmp%2#0"
@@ -3726,7 +3937,7 @@
         "tmp%2#0"
       ]
     },
-    "810": {
+    "849": {
       "op": "global CurrentApplicationID",
       "defined_out": [
         "tmp%2#0",
@@ -3737,7 +3948,7 @@
         "tmp%3#0"
       ]
     },
-    "812": {
+    "851": {
       "op": "==",
       "defined_out": [
         "tmp%4#0"
@@ -3746,15 +3957,15 @@
         "tmp%4#0"
       ]
     },
-    "813": {
+    "852": {
       "op": "assert",
       "stack_out": []
     },
-    "814": {
+    "853": {
       "retsub": true,
       "op": "retsub"
     },
-    "815": {
+    "854": {
       "subroutine": "petition.PetitionMaster.will_prime_petition",
       "params": {},
       "block": "will_prime_petition",
@@ -3767,7 +3978,7 @@
         "tmp%0#0"
       ]
     },
-    "817": {
+    "856": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -3778,7 +3989,7 @@
         "1"
       ]
     },
-    "818": {
+    "857": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%0#0"
@@ -3787,7 +3998,7 @@
         "gtxn_idx%0#0"
       ]
     },
-    "819": {
+    "858": {
       "op": "dup",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -3798,7 +4009,7 @@
         "gtxn_idx%0#0 (copy)"
       ]
     },
-    "820": {
+    "859": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -3809,7 +4020,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "822": {
+    "861": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl",
@@ -3822,7 +4033,7 @@
         "appl"
       ]
     },
-    "823": {
+    "862": {
       "op": "==",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -3833,14 +4044,14 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "824": {
+    "863": {
       "error": "transaction type is appl",
       "op": "assert // transaction type is appl",
       "stack_out": [
         "gtxn_idx%0#0"
       ]
     },
-    "825": {
+    "864": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -3851,7 +4062,7 @@
         "0"
       ]
     },
-    "826": {
+    "865": {
       "op": "gtxnsas ApplicationArgs",
       "defined_out": [
         "tmp%1#0"
@@ -3860,7 +4071,7 @@
         "tmp%1#0"
       ]
     },
-    "828": {
+    "867": {
       "op": "bytec 7 // method \"prime_petition(application)void\"",
       "defined_out": [
         "Method(prime_petition(application)void)",
@@ -3871,7 +4082,7 @@
         "Method(prime_petition(application)void)"
       ]
     },
-    "830": {
+    "869": {
       "op": "==",
       "defined_out": [
         "tmp%2#0"
@@ -3880,15 +4091,15 @@
         "tmp%2#0"
       ]
     },
-    "831": {
+    "870": {
       "op": "assert",
       "stack_out": []
     },
-    "832": {
+    "871": {
       "retsub": true,
       "op": "retsub"
     },
-    "833": {
+    "872": {
       "subroutine": "petition.PetitionMaster.contract_is_payment_receiver",
       "params": {
         "pay_tx#0": "uint64"
@@ -3897,7 +4108,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "836": {
+    "875": {
       "op": "frame_dig -1",
       "defined_out": [
         "pay_tx#0 (copy)"
@@ -3906,7 +4117,7 @@
         "pay_tx#0 (copy)"
       ]
     },
-    "838": {
+    "877": {
       "op": "gtxns Receiver",
       "defined_out": [
         "tmp%0#0"
@@ -3915,7 +4126,7 @@
         "tmp%0#0"
       ]
     },
-    "840": {
+    "879": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "tmp%0#0",
@@ -3926,7 +4137,7 @@
         "tmp%1#0"
       ]
     },
-    "842": {
+    "881": {
       "op": "==",
       "defined_out": [
         "tmp%2#0"
@@ -3935,22 +4146,22 @@
         "tmp%2#0"
       ]
     },
-    "843": {
+    "882": {
       "op": "assert",
       "stack_out": []
     },
-    "844": {
+    "883": {
       "retsub": true,
       "op": "retsub"
     },
-    "845": {
+    "884": {
       "subroutine": "petition.PetitionMaster.create_petition_app",
       "params": {},
       "block": "create_petition_app",
       "stack_in": [],
       "op": "itxn_begin"
     },
-    "846": {
+    "885": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0"
@@ -3959,7 +4170,7 @@
         "0"
       ]
     },
-    "847": {
+    "886": {
       "op": "bytec_3 // \"petition_template_app\"",
       "defined_out": [
         "\"petition_template_app\"",
@@ -3970,7 +4181,7 @@
         "\"petition_template_app\""
       ]
     },
-    "848": {
+    "887": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -3981,14 +4192,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "849": {
+    "888": {
       "error": "check self.petition_template_app exists",
       "op": "assert // check self.petition_template_app exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "850": {
+    "889": {
       "op": "dup",
       "defined_out": [
         "maybe_value%0#0",
@@ -3999,7 +4210,7 @@
         "maybe_value%0#0 (copy)"
       ]
     },
-    "851": {
+    "890": {
       "op": "app_params_get AppApprovalProgram",
       "defined_out": [
         "check%0#0",
@@ -4012,7 +4223,7 @@
         "check%0#0"
       ]
     },
-    "853": {
+    "892": {
       "error": "application exists",
       "op": "assert // application exists",
       "stack_out": [
@@ -4020,14 +4231,14 @@
         "value%0#0"
       ]
     },
-    "854": {
+    "893": {
       "op": "swap",
       "stack_out": [
         "value%0#0",
         "maybe_value%0#0"
       ]
     },
-    "855": {
+    "894": {
       "op": "app_params_get AppClearStateProgram",
       "defined_out": [
         "check%1#0",
@@ -4040,7 +4251,7 @@
         "check%1#0"
       ]
     },
-    "857": {
+    "896": {
       "error": "application exists",
       "op": "assert // application exists",
       "stack_out": [
@@ -4048,7 +4259,7 @@
         "value%1#0"
       ]
     },
-    "858": {
+    "897": {
       "op": "pushint 2 // 2",
       "defined_out": [
         "2",
@@ -4061,14 +4272,14 @@
         "2"
       ]
     },
-    "860": {
+    "899": {
       "op": "itxn_field GlobalNumByteSlice",
       "stack_out": [
         "value%0#0",
         "value%1#0"
       ]
     },
-    "862": {
+    "901": {
       "op": "intc_3 // 4",
       "defined_out": [
         "4",
@@ -4081,24 +4292,24 @@
         "4"
       ]
     },
-    "863": {
+    "902": {
       "op": "itxn_field GlobalNumUint",
       "stack_out": [
         "value%0#0",
         "value%1#0"
       ]
     },
-    "865": {
+    "904": {
       "op": "itxn_field ClearStateProgramPages",
       "stack_out": [
         "value%0#0"
       ]
     },
-    "867": {
+    "906": {
       "op": "itxn_field ApprovalProgramPages",
       "stack_out": []
     },
-    "869": {
+    "908": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl"
@@ -4107,24 +4318,24 @@
         "appl"
       ]
     },
-    "870": {
+    "909": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "872": {
+    "911": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "873": {
+    "912": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "875": {
+    "914": {
       "op": "itxn_submit"
     },
-    "876": {
+    "915": {
       "op": "itxn CreatedApplicationID",
       "defined_out": [
         "tmp%0#0"
@@ -4133,11 +4344,11 @@
         "tmp%0#0"
       ]
     },
-    "878": {
+    "917": {
       "retsub": true,
       "op": "retsub"
     },
-    "879": {
+    "918": {
       "subroutine": "petition.PetitionMaster.prime_petition",
       "params": {
         "petition_app_id#0": "uint64"
@@ -4146,14 +4357,14 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "882": {
+    "921": {
       "callsub": "petition.PetitionMaster.is_creating_petition",
       "op": "callsub is_creating_petition"
     },
-    "885": {
+    "924": {
       "op": "itxn_begin"
     },
-    "886": {
+    "925": {
       "op": "frame_dig -1",
       "defined_out": [
         "petition_app_id#0 (copy)"
@@ -4162,11 +4373,11 @@
         "petition_app_id#0 (copy)"
       ]
     },
-    "888": {
+    "927": {
       "op": "itxn_field ApplicationID",
       "stack_out": []
     },
-    "890": {
+    "929": {
       "op": "pushbytes 0xef7e6e81 // method \"prime_petition()void\"",
       "defined_out": [
         "Method(prime_petition()void)"
@@ -4175,11 +4386,11 @@
         "Method(prime_petition()void)"
       ]
     },
-    "896": {
+    "935": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": []
     },
-    "898": {
+    "937": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl"
@@ -4188,11 +4399,11 @@
         "appl"
       ]
     },
-    "899": {
+    "938": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "901": {
+    "940": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0"
@@ -4201,18 +4412,18 @@
         "0"
       ]
     },
-    "902": {
+    "941": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "904": {
+    "943": {
       "op": "itxn_submit"
     },
-    "905": {
+    "944": {
       "retsub": true,
       "op": "retsub"
     },
-    "906": {
+    "945": {
       "subroutine": "petition.PetitionMaster.sign_petition",
       "params": {
         "petition_app#0": "uint64",
@@ -4222,7 +4433,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "909": {
+    "948": {
       "op": "frame_dig -1",
       "defined_out": [
         "mbr_payment#0 (copy)"
@@ -4231,12 +4442,12 @@
         "mbr_payment#0 (copy)"
       ]
     },
-    "911": {
+    "950": {
       "callsub": "petition.PetitionMaster.contract_is_payment_receiver",
       "op": "callsub contract_is_payment_receiver",
       "stack_out": []
     },
-    "914": {
+    "953": {
       "op": "frame_dig -2",
       "defined_out": [
         "petition_app#0 (copy)"
@@ -4245,8 +4456,19 @@
         "petition_app#0 (copy)"
       ]
     },
-    "916": {
-      "op": "app_params_get AppCreator",
+    "955": {
+      "callsub": "petition.PetitionMaster.is_child_app",
+      "op": "callsub is_child_app",
+      "stack_out": []
+    },
+    "958": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "petition_app#0 (copy)"
+      ]
+    },
+    "960": {
+      "op": "app_params_get AppAddress",
       "defined_out": [
         "check%0#0",
         "value%0#0"
@@ -4256,65 +4478,21 @@
         "check%0#0"
       ]
     },
-    "918": {
+    "962": {
       "error": "application exists",
       "op": "assert // application exists",
       "stack_out": [
         "value%0#0"
       ]
     },
-    "919": {
-      "op": "global CurrentApplicationAddress",
-      "defined_out": [
-        "tmp%0#0",
-        "value%0#0"
-      ],
-      "stack_out": [
-        "value%0#0",
-        "tmp%0#0"
-      ]
-    },
-    "921": {
-      "op": "==",
-      "defined_out": [
-        "tmp%1#1"
-      ],
-      "stack_out": [
-        "tmp%1#1"
-      ]
-    },
-    "922": {
-      "op": "assert",
-      "stack_out": []
-    },
-    "923": {
-      "op": "frame_dig -2",
-      "stack_out": [
-        "petition_app#0 (copy)"
-      ]
-    },
-    "925": {
-      "op": "app_params_get AppAddress",
-      "stack_out": [
-        "value%0#0",
-        "check%0#0"
-      ]
-    },
-    "927": {
-      "error": "application exists",
-      "op": "assert // application exists",
-      "stack_out": [
-        "value%0#0"
-      ]
-    },
-    "928": {
+    "963": {
       "op": "frame_dig -1",
       "stack_out": [
         "value%0#0",
         "mbr_payment#0 (copy)"
       ]
     },
-    "930": {
+    "965": {
       "op": "gtxns Amount",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4325,10 +4503,10 @@
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "932": {
+    "967": {
       "op": "itxn_begin"
     },
-    "933": {
+    "968": {
       "op": "dup",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4341,27 +4519,27 @@
         "inner_mbr_payment%%param_Amount_idx_0#0 (copy)"
       ]
     },
-    "934": {
+    "969": {
       "op": "itxn_field Amount",
       "stack_out": [
         "value%0#0",
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "936": {
+    "971": {
       "op": "swap",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "value%0#0"
       ]
     },
-    "937": {
+    "972": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "939": {
+    "974": {
       "op": "intc_0 // pay",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4372,13 +4550,13 @@
         "pay"
       ]
     },
-    "940": {
+    "975": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "942": {
+    "977": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -4389,23 +4567,27 @@
         "0"
       ]
     },
-    "943": {
+    "978": {
       "op": "itxn_field Fee",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "945": {
+    "980": {
       "op": "itxn_next"
     },
-    "946": {
+    "981": {
       "op": "txn Sender",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0"
+      ],
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "tmp%0#0"
       ]
     },
-    "948": {
+    "983": {
       "op": "frame_dig -2",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4413,14 +4595,14 @@
         "petition_app#0 (copy)"
       ]
     },
-    "950": {
+    "985": {
       "op": "itxn_field ApplicationID",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "tmp%0#0"
       ]
     },
-    "952": {
+    "987": {
       "op": "pushbytes 0x278a0a04 // method \"sign_petition(address,pay)uint64\"",
       "defined_out": [
         "Method(sign_petition(address,pay)uint64)",
@@ -4433,20 +4615,20 @@
         "Method(sign_petition(address,pay)uint64)"
       ]
     },
-    "958": {
+    "993": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "tmp%0#0"
       ]
     },
-    "960": {
+    "995": {
       "op": "itxn_field ApplicationArgs",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "962": {
+    "997": {
       "op": "intc_2 // appl",
       "defined_out": [
         "appl",
@@ -4457,29 +4639,29 @@
         "appl"
       ]
     },
-    "963": {
+    "998": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "965": {
+    "1000": {
       "op": "intc_1 // 0",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
         "0"
       ]
     },
-    "966": {
+    "1001": {
       "op": "itxn_field Fee",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0"
       ]
     },
-    "968": {
+    "1003": {
       "op": "itxn_submit"
     },
-    "969": {
+    "1004": {
       "op": "gitxn 1 LastLog",
       "defined_out": [
         "awst_tmp%0#0",
@@ -4490,7 +4672,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "972": {
+    "1007": {
       "op": "dup",
       "defined_out": [
         "awst_tmp%0#0",
@@ -4503,7 +4685,7 @@
         "awst_tmp%0#0 (copy)"
       ]
     },
-    "973": {
+    "1008": {
       "op": "extract 4 0",
       "defined_out": [
         "awst_tmp%0#0",
@@ -4516,7 +4698,7 @@
         "tmp%1#0"
       ]
     },
-    "976": {
+    "1011": {
       "op": "swap",
       "stack_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4524,7 +4706,7 @@
         "awst_tmp%0#0"
       ]
     },
-    "977": {
+    "1012": {
       "op": "extract 0 4",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4537,8 +4719,8 @@
         "tmp%2#0"
       ]
     },
-    "980": {
-      "op": "bytec_2 // 0x151f7c75",
+    "1015": {
+      "op": "bytec_0 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4552,7 +4734,7 @@
         "0x151f7c75"
       ]
     },
-    "981": {
+    "1016": {
       "op": "==",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4565,7 +4747,7 @@
         "tmp%3#0"
       ]
     },
-    "982": {
+    "1017": {
       "error": "application log value is not the result of an ABI return",
       "op": "assert // application log value is not the result of an ABI return",
       "stack_out": [
@@ -4573,7 +4755,7 @@
         "tmp%1#0"
       ]
     },
-    "983": {
+    "1018": {
       "op": "btoi",
       "defined_out": [
         "inner_mbr_payment%%param_Amount_idx_0#0",
@@ -4584,7 +4766,7 @@
         "mbr_used#0"
       ]
     },
-    "984": {
+    "1019": {
       "op": "-",
       "defined_out": [
         "excess#0"
@@ -4593,12 +4775,433 @@
         "excess#0"
       ]
     },
-    "985": {
+    "1020": {
       "callsub": "petition.refund_excess",
       "op": "callsub refund_excess",
       "stack_out": []
     },
-    "988": {
+    "1023": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1024": {
+      "subroutine": "petition.PetitionMaster.is_child_app",
+      "params": {
+        "app_id#0": "uint64"
+      },
+      "block": "is_child_app",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "1027": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "app_id#0 (copy)"
+      ],
+      "stack_out": [
+        "app_id#0 (copy)"
+      ]
+    },
+    "1029": {
+      "op": "app_params_get AppCreator",
+      "defined_out": [
+        "check%0#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "check%0#0"
+      ]
+    },
+    "1031": {
+      "error": "application exists",
+      "op": "assert // application exists",
+      "stack_out": [
+        "value%0#0"
+      ]
+    },
+    "1032": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "1034": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "1035": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "1036": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1037": {
+      "subroutine": "petition.PetitionMaster.add_comment",
+      "params": {
+        "petition_app#0": "uint64",
+        "text#0": "bytes",
+        "mbr_payment#0": "uint64"
+      },
+      "block": "add_comment",
+      "stack_in": [],
+      "op": "proto 3 0"
+    },
+    "1040": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "mbr_payment#0 (copy)"
+      ],
+      "stack_out": [
+        "mbr_payment#0 (copy)"
+      ]
+    },
+    "1042": {
+      "callsub": "petition.PetitionMaster.contract_is_payment_receiver",
+      "op": "callsub contract_is_payment_receiver",
+      "stack_out": []
+    },
+    "1045": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "petition_app#0 (copy)"
+      ],
+      "stack_out": [
+        "petition_app#0 (copy)"
+      ]
+    },
+    "1047": {
+      "callsub": "petition.PetitionMaster.is_child_app",
+      "op": "callsub is_child_app",
+      "stack_out": []
+    },
+    "1050": {
+      "op": "frame_dig -3",
+      "stack_out": [
+        "petition_app#0 (copy)"
+      ]
+    },
+    "1052": {
+      "op": "app_params_get AppAddress",
+      "defined_out": [
+        "check%0#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "check%0#0"
+      ]
+    },
+    "1054": {
+      "error": "application exists",
+      "op": "assert // application exists",
+      "stack_out": [
+        "value%0#0"
+      ]
+    },
+    "1055": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "value%0#0",
+        "mbr_payment#0 (copy)"
+      ]
+    },
+    "1057": {
+      "op": "gtxns Amount",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1059": {
+      "op": "itxn_begin"
+    },
+    "1060": {
+      "op": "dup",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0 (copy)",
+        "value%0#0"
+      ],
+      "stack_out": [
+        "value%0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0 (copy)"
+      ]
+    },
+    "1061": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "value%0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1063": {
+      "op": "swap",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "value%0#0"
+      ]
+    },
+    "1064": {
+      "op": "itxn_field Receiver",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1066": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "pay"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "pay"
+      ]
+    },
+    "1067": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1069": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "0"
+      ]
+    },
+    "1070": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1072": {
+      "op": "itxn_next"
+    },
+    "1073": {
+      "op": "frame_dig -3",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "petition_app#0 (copy)"
+      ]
+    },
+    "1075": {
+      "op": "itxn_field ApplicationID",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1077": {
+      "op": "pushbytes 0x5496d612 // method \"add_comment(byte[],pay)uint64\"",
+      "defined_out": [
+        "Method(add_comment(byte[],pay)uint64)",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "Method(add_comment(byte[],pay)uint64)"
+      ]
+    },
+    "1083": {
+      "op": "itxn_field ApplicationArgs",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1085": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "text#0 (copy)"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "text#0 (copy)"
+      ]
+    },
+    "1087": {
+      "op": "itxn_field ApplicationArgs",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1089": {
+      "op": "intc_2 // appl",
+      "defined_out": [
+        "appl",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "appl"
+      ]
+    },
+    "1090": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1092": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "0"
+      ]
+    },
+    "1093": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ]
+    },
+    "1095": {
+      "op": "itxn_submit"
+    },
+    "1096": {
+      "op": "gitxn 1 LastLog",
+      "defined_out": [
+        "awst_tmp%0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "awst_tmp%0#0"
+      ]
+    },
+    "1099": {
+      "op": "dup",
+      "defined_out": [
+        "awst_tmp%0#0",
+        "awst_tmp%0#0 (copy)",
+        "inner_mbr_payment%%param_Amount_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "awst_tmp%0#0",
+        "awst_tmp%0#0 (copy)"
+      ]
+    },
+    "1100": {
+      "op": "extract 4 0",
+      "defined_out": [
+        "awst_tmp%0#0",
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "awst_tmp%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "1103": {
+      "op": "swap",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "awst_tmp%0#0"
+      ]
+    },
+    "1104": {
+      "op": "extract 0 4",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "1107": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "tmp%1#0",
+        "0x151f7c75"
+      ]
+    },
+    "1108": {
+      "op": "==",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0",
+        "tmp%2#0"
+      ]
+    },
+    "1109": {
+      "error": "application log value is not the result of an ABI return",
+      "op": "assert // application log value is not the result of an ABI return",
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "tmp%0#0"
+      ]
+    },
+    "1110": {
+      "op": "btoi",
+      "defined_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "mbr_used#0"
+      ],
+      "stack_out": [
+        "inner_mbr_payment%%param_Amount_idx_0#0",
+        "mbr_used#0"
+      ]
+    },
+    "1111": {
+      "op": "-",
+      "defined_out": [
+        "excess#0"
+      ],
+      "stack_out": [
+        "excess#0"
+      ]
+    },
+    "1112": {
+      "callsub": "petition.refund_excess",
+      "op": "callsub refund_excess",
+      "stack_out": []
+    },
+    "1115": {
       "retsub": true,
       "op": "retsub"
     }

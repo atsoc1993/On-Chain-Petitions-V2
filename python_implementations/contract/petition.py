@@ -1,4 +1,4 @@
-from algopy import ARC4Contract, arc4, subroutine, BoxMap, UInt64, Global, Txn, gtxn, Application, String, itxn, Account, OnCompleteAction, BoxRef, Bytes, op
+from algopy import ARC4Contract, arc4, subroutine, BoxMap, UInt64, Global, Txn, gtxn, Application, String, itxn, Account, BoxRef, Bytes, op
 from algopy.arc4 import abimethod, DynamicBytes, Struct, Address, abi_call, arc4_signature
 
 @subroutine
@@ -217,6 +217,28 @@ class PetitionMaster(ARC4Contract):
     def is_child_app(self, app_id: Application) -> None:
         assert app_id.creator == Global.current_application_address
 
+    @abimethod
+    def add_comment(self, petition_app: Application, text: DynamicBytes, mbr_payment: gtxn.PaymentTransaction) -> None:
+        self.contract_is_payment_receiver(mbr_payment)
+        self.is_child_app(app_id=petition_app)
+
+        inner_mbr_payment = itxn.Payment(
+            receiver=petition_app.address,
+            amount=mbr_payment.amount
+        )
+    
+        mbr_used, txn = abi_call(
+            Petition.add_comment,
+            text,
+            inner_mbr_payment,
+            app_id=petition_app,
+        )
+
+        excess = mbr_payment.amount - mbr_used
+        refund_excess(excess=excess)
+
+
+
 class Signee(Struct):
     address: arc4.Address
 
@@ -369,7 +391,8 @@ class Petition(ARC4Contract):
         self.signees += 1
 
     @abimethod
-    def add_comment(self, text: DynamicBytes, mbr_payment: gtxn.PaymentTransaction) -> None:
+    def add_comment(self, text: DynamicBytes, mbr_payment: gtxn.PaymentTransaction) -> UInt64:
+        self.is_creator_or_master_creator()
         self.petition_is_primed()
         pre_mbr = get_mbr()
         self.comments[self.comment_counter] = Comment(
@@ -383,6 +406,7 @@ class Petition(ARC4Contract):
         excess = mbr_payment.amount - mbr_cost
         refund_excess(excess=excess)
         self.increment_comment_counter()
+        return mbr_cost
 
     @subroutine
     def increment_comment_counter(self) -> None:
